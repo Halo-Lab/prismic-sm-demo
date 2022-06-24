@@ -2,9 +2,10 @@ import s from "./Stats.module.scss";
 import StatsItem from "./StatsItem/StatsItem";
 
 const Stats = ({ data }) => {
-  const { stats, title, category } = data.stats;
+  const { items, primary } = data;  
+  const { statsTitle, statsSubTitle } = primary;
 
-  const statsItems = stats.map((item, index) => {
+  const statsItems = items.map((item, index) => {
     return <StatsItem data={item} key={index} />;
   });
 
@@ -12,8 +13,8 @@ const Stats = ({ data }) => {
     <div className="section">
       <div className={s.stats}>
         <div className="container">
-          <span className="section-category">{category}</span>
-          <h3 className="section-title">{title}</h3>
+          <span className="section-category">{statsTitle}</span>
+          <h3 className="section-title">{statsSubTitle}</h3>
           <div className="section-content">
             <div className={s.statsList}>{statsItems}</div>
           </div>

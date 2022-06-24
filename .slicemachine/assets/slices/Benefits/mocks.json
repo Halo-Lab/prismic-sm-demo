@@ -12,25 +12,11 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
-        },
-        "benefitsCardTitle": "orchestrate bricks-and-clicks functionalities",
-        "benefitsCardText": "implement interactive paradigms",
-        "benefitsCardLink": "grow end-to-end interfaces"
-      },
-      {
-        "benefitsCardLogo": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
           "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
         },
-        "benefitsCardTitle": "transform extensible paradigms",
-        "benefitsCardText": "harness wireless convergence",
-        "benefitsCardLink": "scale open-source deliverables"
+        "benefitsCardTitle": "streamline best-of-breed initiatives",
+        "benefitsCardText": "architect open-source mindshare",
+        "benefitsCardLink": "exploit distributed niches"
       },
       {
         "benefitsCardLogo": {
@@ -40,11 +26,11 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
         },
-        "benefitsCardTitle": "brand enterprise e-tailers",
-        "benefitsCardText": "unleash extensible action-items",
-        "benefitsCardLink": "exploit collaborative systems"
+        "benefitsCardTitle": "envisioneer cutting-edge deliverables",
+        "benefitsCardText": "expedite virtual convergence",
+        "benefitsCardLink": "integrate front-end networks"
       },
       {
         "benefitsCardLogo": {
@@ -54,16 +40,32 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
         },
-        "benefitsCardTitle": "orchestrate open-source technologies",
-        "benefitsCardText": "disintermediate virtual methodologies",
-        "benefitsCardLink": "scale leading-edge experiences"
+        "benefitsCardTitle": "whiteboard sexy convergence",
+        "benefitsCardText": "mesh sticky convergence",
+        "benefitsCardLink": "unleash strategic experiences"
+      },
+      {
+        "benefitsCardLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+        },
+        "benefitsCardTitle": "e-enable intuitive e-commerce",
+        "benefitsCardText": "evolve synergistic platforms",
+        "benefitsCardLink": "exploit value-added systems"
       }
     ],
     "primary": {
-      "benefitsTitle": "embrace turn-key infrastructures",
-      "benefitsSubTitle": "target vertical paradigms"
+      "benefitsTitle": "engage distributed e-commerce",
+      "benefitsSubTitle": "transition killer bandwidth",
+      "buttonShowText": "transition bricks-and-clicks synergies",
+      "buttonHiddenText": "iterate cross-platform technologies"
     }
   }
 ]

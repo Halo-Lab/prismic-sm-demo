@@ -3,16 +3,16 @@ import styles from "./Social.module.scss";
 
 const Social = ({ footerSocialsArr }) => {
   const socialLinks = footerSocialsArr.map((item, index) => {
-    const { socialIcon, socialLink, socialTitle } = item;
+    const { footerSocialLogo, footerSocialLink } = item;
 
     return (
       <li className={styles.socialItem} key={index}>
-        <a href={socialLink.current}>
+        <a href={footerSocialLink}>
           <img
             className={styles.socialIcon}
             loading="lazy"
-            src={''}
-            alt={socialTitle}
+            src={footerSocialLogo.url}
+            alt={footerSocialLogo.alt}
           />
         </a>
       </li>

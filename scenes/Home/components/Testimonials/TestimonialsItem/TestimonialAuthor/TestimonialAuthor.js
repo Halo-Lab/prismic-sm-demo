@@ -6,7 +6,7 @@ const TestimonialAuthor = ({ name, position, avatarImg, avatarAlt }) => {
   return (
     <div className={styles.testimonialAuthor}>
       <div className={styles.testimonialAuthorImg}>
-        <img src={''} className={styles.img} alt={avatarAlt} />
+        <img src={avatarImg.url} className={styles.img} alt={avatarAlt} />
       </div>
       <div className={styles.testimonialAuthorInfo}>
         <span className={styles.testimonialAuthorName}>{name}</span>

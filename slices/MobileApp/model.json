@@ -46,39 +46,25 @@
             "constraint": {},
             "thumbnails": []
           }
-        },
-        "mobileAppReports": {
+        }
+      },
+      "items": {
+        "mobileAppFunctionText": {
           "type": "Text",
           "config": {
-            "label": "Mobile App Reports",
+            "label": "Mobile App Function Text",
             "placeholder": ""
           }
         },
-        "mobileAppReportsLogo": {
+        "mobileAppFunctionLogo": {
           "type": "Image",
           "config": {
-            "label": "Mobile App Reports Logo",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "mobileAppMessages": {
-          "type": "Text",
-          "config": {
-            "label": "Mobile App Messages",
-            "placeholder": ""
-          }
-        },
-        "mobileAppMessagesLogo": {
-          "type": "Image",
-          "config": {
-            "label": "Mobile App Messages Logo",
+            "label": "Mobile App Function Logo",
             "constraint": {},
             "thumbnails": []
           }
         }
       },
-      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]

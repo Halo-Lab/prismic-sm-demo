@@ -24,38 +24,6 @@
             "label": "Testimonials Sub Title",
             "placeholder": ""
           }
-        },
-        "testimonialsArrowLeft": {
-          "type": "Image",
-          "config": {
-            "label": "Testimonials Arrow Left",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "testimonialsArrowRight": {
-          "type": "Image",
-          "config": {
-            "label": "Testimonials Arrow Right",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "testimonialsStar": {
-          "type": "Image",
-          "config": {
-            "label": "Testimonials Star",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "testimonialsEmptyStar": {
-          "type": "Image",
-          "config": {
-            "label": "Testimonials Empty Star",
-            "constraint": {},
-            "thumbnails": []
-          }
         }
       },
       "items": {

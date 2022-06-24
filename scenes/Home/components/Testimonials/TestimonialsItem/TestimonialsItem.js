@@ -5,20 +5,20 @@ import Rating from "./Rating/Rating";
 import classNames from "classnames";
 
 const TestimonialsItem = ({ data, key }) => {
-  const { userAvatar, userName, userPosition, reviewStars, reviewDescription } =
-    data;
+  const { testimonialsStarCount, testimonialsCardText, testimonialsCardLogo, testimonialsCardSign, testimonialsCardProfession } =
+  data;
 
   return (
     <div key={key} className={classNames(`swiper-slide ${s.testimonialItem}`)}>
       <div className={s.testimonialItemHeader}>
-        <Rating starsNum={reviewStars} />
+        <Rating starsNum={testimonialsStarCount} />
       </div>
-      <span className={s.testimonialItemDesc}>{reviewDescription}</span>
+      <span className={s.testimonialItemDesc}>{testimonialsCardText}</span>
       <TestimonialAuthor
-        name={userName}
-        position={userPosition}
-        avatarImg={userAvatar}
-        avatarAlt={userName}
+        name={testimonialsCardSign}
+        position={testimonialsCardProfession}
+        avatarImg={testimonialsCardLogo}
+        avatarAlt={testimonialsCardSign}
       />
     </div>
   );

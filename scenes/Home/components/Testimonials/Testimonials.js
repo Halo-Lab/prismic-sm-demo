@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 
 import SecondArrowIcon from "../../../../assets/SecondArrowIcon/SecondArrowIcon";
 
-const Testimonials = ({ testimonials }) => {
+const Testimonials = ({ data }) => {
   const swiperRef = useRef(null);
 
   const sliderParams = {
@@ -49,9 +49,10 @@ const Testimonials = ({ testimonials }) => {
     }
   };
 
-  const { category, testimonialsArr, title } = testimonials;
-
-  const testimonialItems = testimonialsArr.map((item, index) => {
+  const { items, primary } = data;  
+  const { testimonialsTitle, testimonialsSubTitle } = primary;
+ 
+  const testimonialItems = items.map((item, index) => {
     return (
       <SwiperSlide key={index}>
         <TestimonialsItem data={item} />
@@ -65,7 +66,7 @@ const Testimonials = ({ testimonials }) => {
         <div className={s.testimonialWrapper}>
           <div className={s.testimonialInfo}>
             <span className="section-category section-category--inner section-title--center-mobile">
-              {category}
+              {testimonialsTitle}
             </span>
             <h3
               className={classnames(
@@ -73,7 +74,7 @@ const Testimonials = ({ testimonials }) => {
                 s.title
               )}
             >
-              {title}
+              {testimonialsSubTitle}
             </h3>
             <div className={s.testimonialNavigation}>
               <button

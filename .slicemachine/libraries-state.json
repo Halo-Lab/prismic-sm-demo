@@ -32,6 +32,20 @@
                     "label": "Benefits Sub Title",
                     "placeholder": ""
                   }
+                },
+                "buttonShowText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Show Text",
+                    "placeholder": ""
+                  }
+                },
+                "buttonHiddenText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Hidden Text",
+                    "placeholder": ""
+                  }
                 }
               },
               "items": {
@@ -83,25 +97,11 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
-                },
-                "benefitsCardTitle": "orchestrate bricks-and-clicks functionalities",
-                "benefitsCardText": "implement interactive paradigms",
-                "benefitsCardLink": "grow end-to-end interfaces"
-              },
-              {
-                "benefitsCardLogo": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
                   "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
                 },
-                "benefitsCardTitle": "transform extensible paradigms",
-                "benefitsCardText": "harness wireless convergence",
-                "benefitsCardLink": "scale open-source deliverables"
+                "benefitsCardTitle": "streamline best-of-breed initiatives",
+                "benefitsCardText": "architect open-source mindshare",
+                "benefitsCardLink": "exploit distributed niches"
               },
               {
                 "benefitsCardLogo": {
@@ -111,11 +111,11 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
                 },
-                "benefitsCardTitle": "brand enterprise e-tailers",
-                "benefitsCardText": "unleash extensible action-items",
-                "benefitsCardLink": "exploit collaborative systems"
+                "benefitsCardTitle": "envisioneer cutting-edge deliverables",
+                "benefitsCardText": "expedite virtual convergence",
+                "benefitsCardLink": "integrate front-end networks"
               },
               {
                 "benefitsCardLogo": {
@@ -125,16 +125,32 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
                 },
-                "benefitsCardTitle": "orchestrate open-source technologies",
-                "benefitsCardText": "disintermediate virtual methodologies",
-                "benefitsCardLink": "scale leading-edge experiences"
+                "benefitsCardTitle": "whiteboard sexy convergence",
+                "benefitsCardText": "mesh sticky convergence",
+                "benefitsCardLink": "unleash strategic experiences"
+              },
+              {
+                "benefitsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                },
+                "benefitsCardTitle": "e-enable intuitive e-commerce",
+                "benefitsCardText": "evolve synergistic platforms",
+                "benefitsCardLink": "exploit value-added systems"
               }
             ],
             "primary": {
-              "benefitsTitle": "embrace turn-key infrastructures",
-              "benefitsSubTitle": "target vertical paradigms"
+              "benefitsTitle": "engage distributed e-commerce",
+              "benefitsSubTitle": "transition killer bandwidth",
+              "buttonShowText": "transition bricks-and-clicks synergies",
+              "buttonHiddenText": "iterate cross-platform technologies"
             }
           }
         },
@@ -142,7 +158,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Benefits\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
       },
       "conversion": {
         "library": "slices",
@@ -324,6 +346,13 @@
                     "constraint": {},
                     "thumbnails": []
                   }
+                },
+                "footerSocialLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Footer Social Link",
+                    "placeholder": ""
+                  }
                 }
               },
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
@@ -344,8 +373,9 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
-                }
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
+                },
+                "footerSocialLink": "extend collaborative deliverables"
               },
               {
                 "footerSocialLogo": {
@@ -355,8 +385,9 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
-                }
+                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
+                },
+                "footerSocialLink": "repurpose interactive technologies"
               },
               {
                 "footerSocialLogo": {
@@ -366,8 +397,9 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
-                }
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                },
+                "footerSocialLink": "exploit web-enabled initiatives"
               }
             ],
             "primary": {
@@ -378,10 +410,10 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
               },
-              "footerText": "harness vertical vortals",
-              "footerHaloText": "morph global technologies",
+              "footerText": "facilitate rich e-services",
+              "footerHaloText": "grow proactive e-tailers",
               "footerHaloLogo": {
                 "dimensions": {
                   "width": 900,
@@ -389,7 +421,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
               }
             }
           }
@@ -398,7 +430,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Footer\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
       },
       "header": {
         "library": "slices",
@@ -679,39 +717,25 @@
                     "constraint": {},
                     "thumbnails": []
                   }
-                },
-                "mobileAppReports": {
+                }
+              },
+              "items": {
+                "mobileAppFunctionText": {
                   "type": "Text",
                   "config": {
-                    "label": "Mobile App Reports",
+                    "label": "Mobile App Function Text",
                     "placeholder": ""
                   }
                 },
-                "mobileAppReportsLogo": {
+                "mobileAppFunctionLogo": {
                   "type": "Image",
                   "config": {
-                    "label": "Mobile App Reports Logo",
-                    "constraint": {},
-                    "thumbnails": []
-                  }
-                },
-                "mobileAppMessages": {
-                  "type": "Text",
-                  "config": {
-                    "label": "Mobile App Messages",
-                    "placeholder": ""
-                  }
-                },
-                "mobileAppMessagesLogo": {
-                  "type": "Image",
-                  "config": {
-                    "label": "Mobile App Messages Logo",
+                    "label": "Mobile App Function Logo",
                     "constraint": {},
                     "thumbnails": []
                   }
                 }
               },
-              "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
@@ -721,12 +745,49 @@
             "variation": "default",
             "name": "Default",
             "slice_type": "mobile_app",
-            "items": [],
+            "items": [
+              {
+                "mobileAppFunctionText": "empower cross-platform ROI",
+                "mobileAppFunctionLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "mobileAppFunctionText": "synergize scalable blockchains",
+                "mobileAppFunctionLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "mobileAppFunctionText": "mesh next-generation architectures",
+                "mobileAppFunctionLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+                }
+              }
+            ],
             "primary": {
-              "mobileAppTitle": "enhance viral communities",
-              "mobileAppSubTitle": "syndicate extensible convergence",
-              "mobileAppText": "expedite real-time synergies",
-              "mobileAppButton": "synergize integrated infrastructures",
+              "mobileAppTitle": "e-enable user-centric markets",
+              "mobileAppSubTitle": "maximize mission-critical vortals",
+              "mobileAppText": "e-enable end-to-end systems",
+              "mobileAppButton": "iterate dot-com web-readiness",
               "mobileAppImage": {
                 "dimensions": {
                   "width": 900,
@@ -734,27 +795,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
-              },
-              "mobileAppReports": "optimize rich communities",
-              "mobileAppReportsLogo": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
-              },
-              "mobileAppMessages": "embrace one-to-one bandwidth",
-              "mobileAppMessagesLogo": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
               }
             }
           }
@@ -763,7 +804,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\MobileApp\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
       },
       "partners": {
         "library": "slices",
@@ -982,38 +1029,6 @@
                     "label": "Testimonials Sub Title",
                     "placeholder": ""
                   }
-                },
-                "testimonialsArrowLeft": {
-                  "type": "Image",
-                  "config": {
-                    "label": "Testimonials Arrow Left",
-                    "constraint": {},
-                    "thumbnails": []
-                  }
-                },
-                "testimonialsArrowRight": {
-                  "type": "Image",
-                  "config": {
-                    "label": "Testimonials Arrow Right",
-                    "constraint": {},
-                    "thumbnails": []
-                  }
-                },
-                "testimonialsStar": {
-                  "type": "Image",
-                  "config": {
-                    "label": "Testimonials Star",
-                    "constraint": {},
-                    "thumbnails": []
-                  }
-                },
-                "testimonialsEmptyStar": {
-                  "type": "Image",
-                  "config": {
-                    "label": "Testimonials Empty Star",
-                    "constraint": {},
-                    "thumbnails": []
-                  }
                 }
               },
               "items": {
@@ -1065,8 +1080,8 @@
             "slice_type": "testimonials",
             "items": [
               {
-                "testimonialsStarCount": 6228,
-                "testimonialsCardText": "generate visionary models",
+                "testimonialsStarCount": 676,
+                "testimonialsCardText": "embrace wireless channels",
                 "testimonialsCardLogo": {
                   "dimensions": {
                     "width": 900,
@@ -1074,14 +1089,14 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
                 },
-                "testimonialsCardSign": "embrace strategic e-commerce",
-                "testimonialsCardProfession": "reinvent bricks-and-clicks action-items"
+                "testimonialsCardSign": "redefine proactive methodologies",
+                "testimonialsCardProfession": "repurpose holistic web-readiness"
               },
               {
-                "testimonialsStarCount": 4282,
-                "testimonialsCardText": "expedite viral niches",
+                "testimonialsStarCount": 884,
+                "testimonialsCardText": "transition strategic niches",
                 "testimonialsCardLogo": {
                   "dimensions": {
                     "width": 900,
@@ -1091,12 +1106,12 @@
                   "copyright": null,
                   "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
                 },
-                "testimonialsCardSign": "visualize cross-platform functionalities",
-                "testimonialsCardProfession": "integrate B2B experiences"
+                "testimonialsCardSign": "facilitate world-class models",
+                "testimonialsCardProfession": "streamline cross-platform mindshare"
               },
               {
-                "testimonialsStarCount": 2503,
-                "testimonialsCardText": "deploy innovative e-tailers",
+                "testimonialsStarCount": 2759,
+                "testimonialsCardText": "engineer next-generation users",
                 "testimonialsCardLogo": {
                   "dimensions": {
                     "width": 900,
@@ -1104,51 +1119,30 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
                 },
-                "testimonialsCardSign": "expedite vertical action-items",
-                "testimonialsCardProfession": "syndicate front-end content"
+                "testimonialsCardSign": "maximize virtual content",
+                "testimonialsCardProfession": "deliver end-to-end systems"
+              },
+              {
+                "testimonialsStarCount": 9175,
+                "testimonialsCardText": "aggregate mission-critical e-tailers",
+                "testimonialsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+                },
+                "testimonialsCardSign": "visualize 24/7 blockchains",
+                "testimonialsCardProfession": "aggregate real-time e-business"
               }
             ],
             "primary": {
-              "testimonialsTitle": "innovate robust technologies",
-              "testimonialsSubTitle": "leverage front-end synergies",
-              "testimonialsArrowLeft": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
-              },
-              "testimonialsArrowRight": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
-              },
-              "testimonialsStar": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
-              },
-              "testimonialsEmptyStar": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
-              }
+              "testimonialsTitle": "synergize innovative partnerships",
+              "testimonialsSubTitle": "target leading-edge relationships"
             }
           }
         },
@@ -1156,7 +1150,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Testimonials\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
       }
     }
   }

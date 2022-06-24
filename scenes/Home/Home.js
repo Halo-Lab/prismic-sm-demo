@@ -9,28 +9,22 @@ import Conversion from "./components/Conversion/Conversion";
 import Footer from "./../../components/Footer/Footer";
 
 const Home = ({ page }) => {
-  console.log(page[2])
+  console.log(page[3])
   return (
     <>
       <Header data={page[0]} />
       <div className="homepage">
         <Hero data={page[1]} />
         <Partners data={page[2]} />
+        <Benefits data={page[3]} />
+        <Stats data={page[4]} />
+        <MobileApp data={page[5]} />
+        <Testimonials data={page[6]} />
+        <Conversion data={page[7]} />
       </div>
-
+      <Footer data={page[8]} /> 
     </>
   );
 };
 
 export default Home;
-
-/*
-  <Partners data={data} />
-  <Benefits data={data} />
-  <Stats data={data} />
-  <MobileApp mobileApp={mobileApp} />
-  <Testimonials testimonials={testimonials} />
-  <Conversion conversion={conversion} />
-</div>
-<Footer /> 
-*/

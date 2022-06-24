@@ -24,6 +24,20 @@
             "label": "Benefits Sub Title",
             "placeholder": ""
           }
+        },
+        "buttonShowText": {
+          "type": "Text",
+          "config": {
+            "label": "Button Show Text",
+            "placeholder": ""
+          }
+        },
+        "buttonHiddenText": {
+          "type": "Text",
+          "config": {
+            "label": "Button Hidden Text",
+            "placeholder": ""
+          }
         }
       },
       "items": {

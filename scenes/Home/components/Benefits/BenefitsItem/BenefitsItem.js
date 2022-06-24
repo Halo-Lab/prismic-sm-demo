@@ -4,8 +4,7 @@ import ButtonWithArrow from "../../../../../components/Buttons/ButtonWithArrow/B
 import classnames from "classnames";
 
 const BenefitsItem = ({ data, index, isOpenBenefits }) => {
-  const { benefitTitle, benefitDescription, benefitIcon, benefitButtonText } =
-    data;
+  const { benefitsCardLogo, benefitsCardTitle, benefitsCardText, benefitsCardLink, benefitsCardLinkHref } = data;
 
   return (
     <div
@@ -14,10 +13,10 @@ const BenefitsItem = ({ data, index, isOpenBenefits }) => {
       })}
       key={index}
     >
-      <img className={s.img} src={''} alt={benefitTitle} />
-      <h3 className={s.benefitsItemTitle}>{benefitTitle}</h3>
-      <p className={s.benefitsItemDesc}>{benefitDescription}</p>
-      <ButtonWithArrow buttonText={benefitButtonText} mod="button--regular" />
+      <img className={s.img} src={benefitsCardLogo.url} alt={benefitsCardTitle} />
+      <h3 className={s.benefitsItemTitle}>{benefitsCardTitle}</h3>
+      <p className={s.benefitsItemDesc}>{benefitsCardText}</p>
+      <ButtonWithArrow buttonText={benefitsCardLink} mod="button--regular" />
     </div>
   );
 };

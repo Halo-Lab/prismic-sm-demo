@@ -5,20 +5,16 @@ import SecondArrowIcon from "../../../../assets/SecondArrowIcon/SecondArrowIcon"
 import classnames from "classnames";
 
 const Benefits = ({ data }) => {
-  const {
-    benefits,
-    benefitGeneralTitle,
-    benefitCategory,
-    buttonShowText,
-    buttonHiddenText,
-  } = data.benefits;
+  const { items, primary } = data;  
+  const { benefitsTitle, benefitsSubTitle,buttonShowText, buttonHiddenText } = primary;
+
   const [isOpenBenefits, setIsOpenBenefits] = useState(true);
 
   const handleBenefitsShow = () => {
     setIsOpenBenefits(!isOpenBenefits);
   };
 
-  const benefitsItems = benefits.map((item, index) => {
+  const benefitsItems = items.map((item, index) => {
     return (
       <BenefitsItem
         isOpenBenefits={isOpenBenefits}
@@ -36,10 +32,10 @@ const Benefits = ({ data }) => {
           <div className={s.benefits}>
             <div className="container">
               <span className="section-category section-category--red">
-                {benefitCategory}
+                {benefitsTitle}
               </span>
               <h3 className="section-title section-title--brown section-title--small">
-                {benefitGeneralTitle}
+                {benefitsSubTitle}
               </h3>
               <div className="section-content">
                 <div className={s.benefitsList}>{benefitsItems}</div>

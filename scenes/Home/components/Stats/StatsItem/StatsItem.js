@@ -2,12 +2,12 @@ import React from "react";
 import s from "./StatsItem.module.scss";
 
 const StatsItem = ({ data }) => {
-  const { statTitle, statNumber } = data;
+  const { statsNumber, statsNumberDescription } = data;
 
   return (
     <div className={s.statsItem}>
-      <h4 className={s.statsItemTitle}>{statNumber}+</h4>
-      <span className={s.statsItemDesc}>{statTitle}</span>
+      <h4 className={s.statsItemTitle}>{statsNumber}</h4>
+      <span className={s.statsItemDesc}>{statsNumberDescription}</span>
     </div>
   );
 };

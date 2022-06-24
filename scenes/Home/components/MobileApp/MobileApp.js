@@ -3,16 +3,11 @@ import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPr
 import MobileAppFunction from "./MobileAppFunction/MobileAppFunction";
 import classnames from "classnames";
 
-const MobileApp = ({ mobileApp }) => {
-  const {
-    buttonText,
-    category,
-    description,
-    mobileAppImage,
-    mobileAppArr,
-    title,
-  } = mobileApp;
-  const mobileAppFunctions = mobileAppArr.map((item, index) => {
+const MobileApp = ({ data }) => {
+  const { items, primary } = data;  
+  const { mobileAppTitle, mobileAppSubTitle, mobileAppText, mobileAppButton, mobileAppImage } = primary;
+
+  const mobileAppFunctions = items.map((item, index) => {
     return <MobileAppFunction data={item} key={index} />;
   });
 
@@ -33,20 +28,20 @@ const MobileApp = ({ mobileApp }) => {
                   </div>
                   <img
                     className={s.mobileAppImg}
-                    src={''}
-                    alt={category}
+                    src={mobileAppImage.url}
+                    alt={''}
                   />
                 </div>
               </div>
             </div>
             <div className={s.mobileAppInfo}>
               <span className="section-category section-category--inner">
-                {category}
+                {mobileAppTitle}
               </span>
-              <h3 className="section-title section-title--inner">{title}</h3>
-              <p className={s.mobileAppDesc}>{description}</p>
+              <h3 className="section-title section-title--inner">{mobileAppSubTitle}</h3>
+              <p className={s.mobileAppDesc}>{mobileAppText}</p>
               <div className={s.mobileAppFooter}>
-                <ButtonPrimary buttonText={buttonText} />
+                <ButtonPrimary buttonText={mobileAppButton} />
               </div>
             </div>
           </div>
