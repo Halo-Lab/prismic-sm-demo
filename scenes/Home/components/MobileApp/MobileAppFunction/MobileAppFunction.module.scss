@@ -1,0 +1,61 @@
+.mobileAppFunction {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 128px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 76.8px rgba(55, 36, 8, 0.08);
+  border-radius: 19.2px;
+  z-index: 1;
+
+  @media screen and (max-width: 575px) {
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  &:nth-child(1) {
+    bottom: 93px;
+    left: -32px;
+
+    @media screen and (max-width: 575px) {
+      left: -16px;
+      bottom: 47px;
+    }
+  }
+
+  &:nth-child(2) {
+    top: 66px;
+    right: -32px;
+
+    @media screen and (max-width: 575px) {
+      right: -16px;
+      top: 33px;
+    }
+  }
+
+  &Text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 13px;
+
+    @media screen and (max-width: 575px) {
+      font-size: 7.75111px;
+      line-height: 13px;
+      padding-top: 6px;
+    }
+  }
+}
+
+.img {
+  width: 38px;
+  height: 38px;
+}

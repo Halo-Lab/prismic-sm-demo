@@ -1,0 +1,85 @@
+{
+  "id": "mobile_app",
+  "type": "SharedSlice",
+  "name": "MobileApp",
+  "description": "MobileApp",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MobileApp",
+      "primary": {
+        "mobileAppTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Title",
+            "placeholder": ""
+          }
+        },
+        "mobileAppSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Sub Title",
+            "placeholder": ""
+          }
+        },
+        "mobileAppText": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Text",
+            "placeholder": ""
+          }
+        },
+        "mobileAppButton": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Button",
+            "placeholder": ""
+          }
+        },
+        "mobileAppImage": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile App Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobileAppReports": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Reports",
+            "placeholder": ""
+          }
+        },
+        "mobileAppReportsLogo": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile App Reports Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobileAppMessages": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile App Messages",
+            "placeholder": ""
+          }
+        },
+        "mobileAppMessagesLogo": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile App Messages Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

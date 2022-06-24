@@ -1,0 +1,27 @@
+.buttonWrapper {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 14px;
+  padding: 14px 26px;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  background: #f94144;
+  border-radius: 16px;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+  min-width: 168px;
+  cursor: pointer;
+
+  &:hover {
+    background: #f80004;
+  }
+}

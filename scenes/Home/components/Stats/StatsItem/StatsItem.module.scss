@@ -1,0 +1,48 @@
+.statsItem {
+  width: 240px;
+  padding-left: 34px;
+  border-left: 2px solid #a75dfc;
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    max-width: 50%;
+    flex: 1;
+    min-width: 40%;
+    padding-left: 16px;
+  }
+
+  &:nth-child(2) {
+    border-left: 2px solid #26b5e3;
+  }
+
+  &:nth-child(3) {
+    border-left: 2px solid #dea077;
+  }
+
+  &:nth-child(4) {
+    border-left: 2px solid #95da8a;
+  }
+
+  &Title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 8px;
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+      padding-bottom: 0;
+    }
+  }
+
+  &Desc {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.7;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}

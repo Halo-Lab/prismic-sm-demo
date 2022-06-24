@@ -1,0 +1,76 @@
+.sandwich {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+
+  &OpenBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #4B4A5B;
+  }
+
+  &Line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #0A0B11;
+    border-radius: 1px;
+
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+
+  &Wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+    &Active {
+      display: block;
+    }
+  }
+
+  &Content {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 320px;
+    height: 100%;
+    z-index: 2;
+    background-color: #fff2ea;
+    transition: 0.2s;
+    padding: 20px;
+
+    &Opened {
+      right: 0;
+    }
+  }
+
+  &Header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 16px;
+  }
+
+  &Close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+  }
+}

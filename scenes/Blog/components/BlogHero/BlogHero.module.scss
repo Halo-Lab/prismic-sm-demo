@@ -1,0 +1,92 @@
+.hero {
+  width: 200px;
+
+  &Container {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  &Inner {
+    padding: 70px 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      align-items: unset;
+      justify-content: unset;
+    }
+  }
+
+  &Content {
+    flex: 50%;
+    flex-grow: 1;
+    width: 100%;
+    min-width: 425px;
+    padding: 0 144px 0 0;
+
+    @media screen and (max-width: 768px) {
+      min-width: fit-content;
+      padding: 0;
+    }
+  }
+
+  &Title {
+    margin: 0 0 30px 0;
+    font-size: 44px;
+    font-style: normal;
+    color: #21334f;
+    font-weight: 700;
+    line-height: 52.8px;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 15px 0;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0;
+    }
+  }
+
+  &Subtitle {
+    margin: 0 0 40px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28.8px;
+    color: #21334f;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 25px 0;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0;
+    }
+  }
+
+  &Image {
+    max-width: 584px;
+    width: 100%;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 30px 0;
+      text-align: center;
+      max-width: unset;
+    }
+  }
+
+  &Btn {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+  }
+}

@@ -1,0 +1,61 @@
+.img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+
+.benefitsItem {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0 0 60px rgba(55, 36, 8, 0.08);
+  border-radius: 20px;
+  padding: 32px;
+  max-width: 376px;
+  min-width: 300px;
+  flex: 1;
+
+  @media screen and (max-width: 1100px) {
+    max-width: 500px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 700px;
+    padding: 24px;
+  }
+
+  @media screen and (max-width: 575px) {
+    min-width: 100%;
+  }
+
+  &Hide {
+    @media screen and (max-width: 690px) {
+      display: none;
+    }
+  }
+
+  &Title {
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    @media screen and (max-width: 575px) {
+      padding-bottom: 8px;
+    }
+  }
+
+  &Desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    opacity: 0.7;
+    padding-bottom: 24px;
+
+    @media screen and (max-width: 575px) {
+      padding-bottom: 16px;
+      font-size: 14px;
+      line-height: 180%;
+    }
+  }
+}

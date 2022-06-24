@@ -1,0 +1,28 @@
+.header {
+  padding: 24px 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 20px 0;
+  }
+
+  &Wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &Right {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+
+    @media screen and (max-width: 991px) {
+      gap: 26px;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

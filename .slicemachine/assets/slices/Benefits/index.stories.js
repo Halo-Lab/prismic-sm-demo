@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/Benefits';
+
+export default {
+  title: 'slices/Benefits'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"benefits","items":[{"benefitsCardLogo":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"},"benefitsCardTitle":"orchestrate bricks-and-clicks functionalities","benefitsCardText":"implement interactive paradigms","benefitsCardLink":"grow end-to-end interfaces"},{"benefitsCardLogo":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"},"benefitsCardTitle":"transform extensible paradigms","benefitsCardText":"harness wireless convergence","benefitsCardLink":"scale open-source deliverables"},{"benefitsCardLogo":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"},"benefitsCardTitle":"brand enterprise e-tailers","benefitsCardText":"unleash extensible action-items","benefitsCardLink":"exploit collaborative systems"},{"benefitsCardLogo":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"},"benefitsCardTitle":"orchestrate open-source technologies","benefitsCardText":"disintermediate virtual methodologies","benefitsCardLink":"scale leading-edge experiences"}],"primary":{"benefitsTitle":"embrace turn-key infrastructures","benefitsSubTitle":"target vertical paradigms"},"id":"_Default"}} />
+_Default.storyName = 'Default'

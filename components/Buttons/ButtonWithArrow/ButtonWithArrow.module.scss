@@ -1,0 +1,31 @@
+.buttonArrow {
+  padding: 0;
+  border: 0;
+  min-width: auto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #21334f;
+  background: transparent;
+
+  @media screen and (max-width: 575px) {
+    font-size: 14px;
+  }
+
+  &:hover {
+    background: transparent;
+    color: #f94144;
+
+    path {
+      stroke: #f94144;
+    }
+  }
+
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    border: 0;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "benefits",
+  "type": "SharedSlice",
+  "name": "Benefits",
+  "description": "Benefits",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Benefits",
+      "primary": {
+        "benefitsTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Benefits Title",
+            "placeholder": ""
+          }
+        },
+        "benefitsSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Benefits Sub Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "benefitsCardLogo": {
+          "type": "Image",
+          "config": {
+            "label": "Benefits Card Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "benefitsCardTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Benefits Card Title",
+            "placeholder": ""
+          }
+        },
+        "benefitsCardText": {
+          "type": "Text",
+          "config": {
+            "label": "Benefits Card Text",
+            "placeholder": ""
+          }
+        },
+        "benefitsCardLink": {
+          "type": "Text",
+          "config": {
+            "label": "Benefits Card Link",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

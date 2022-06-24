@@ -1,0 +1,48 @@
+{
+  "id": "stats",
+  "type": "SharedSlice",
+  "name": "Stats",
+  "description": "Stats",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Stats",
+      "primary": {
+        "statsTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Stats Title",
+            "placeholder": ""
+          }
+        },
+        "statsSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Stats Sub Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "statsNumber": {
+          "type": "Text",
+          "config": {
+            "label": "Stats Number",
+            "placeholder": ""
+          }
+        },
+        "statsNumberDescription": {
+          "type": "Text",
+          "config": {
+            "label": "Stats Number Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  &Item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transition: 0.2s;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+  &Icon {
+    width: 24px;
+  }
+}

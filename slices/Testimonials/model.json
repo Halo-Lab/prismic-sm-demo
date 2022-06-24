@@ -1,0 +1,102 @@
+{
+  "id": "testimonials",
+  "type": "SharedSlice",
+  "name": "Testimonials",
+  "description": "Testimonials",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Testimonials",
+      "primary": {
+        "testimonialsTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Testimonials Title",
+            "placeholder": ""
+          }
+        },
+        "testimonialsSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Testimonials Sub Title",
+            "placeholder": ""
+          }
+        },
+        "testimonialsArrowLeft": {
+          "type": "Image",
+          "config": {
+            "label": "Testimonials Arrow Left",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "testimonialsArrowRight": {
+          "type": "Image",
+          "config": {
+            "label": "Testimonials Arrow Right",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "testimonialsStar": {
+          "type": "Image",
+          "config": {
+            "label": "Testimonials Star",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "testimonialsEmptyStar": {
+          "type": "Image",
+          "config": {
+            "label": "Testimonials Empty Star",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "testimonialsStarCount": {
+          "type": "Number",
+          "config": {
+            "label": "Testimonials Star Count",
+            "placeholder": ""
+          }
+        },
+        "testimonialsCardText": {
+          "type": "Text",
+          "config": {
+            "label": "Testimonials Card Text",
+            "placeholder": ""
+          }
+        },
+        "testimonialsCardLogo": {
+          "type": "Image",
+          "config": {
+            "label": "Testimonials Card Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "testimonialsCardSign": {
+          "type": "Text",
+          "config": {
+            "label": "Testimonials Card Sign",
+            "placeholder": ""
+          }
+        },
+        "testimonialsCardProfession": {
+          "type": "Text",
+          "config": {
+            "label": "Testimonials Card Profession",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

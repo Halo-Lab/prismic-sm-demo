@@ -1,0 +1,68 @@
+.post {
+  &Card {
+    text-decoration: none;
+    color: #21334f;
+    transition: all 0.3s ease-in-out;
+
+    &:hover .postImageBox {
+      box-shadow: 0px 0px 7px 0px #b7b7b7;
+      transition: all 0.3s ease-in-out;
+
+      & img {
+        transform: scale(1.03);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 250px;
+    }
+  }
+
+  &ImageBox {
+    width: 100%;
+    height: 288px;
+    margin: 0 0 25px 0;
+    border-radius: 20px;
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+      margin: 0 0 12px 0;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &Img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(
+      90deg,
+      rgba(207, 241, 192, 1) 0%,
+      rgba(249, 248, 202, 1) 100%
+    );
+  }
+
+  &Title {
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.3px;
+    font-style: 400;
+
+    @media screen and (max-width: 768px) {
+      margin: 16px 0 8px 0;
+    }
+  }
+
+  &Description {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28.8px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+  }
+}

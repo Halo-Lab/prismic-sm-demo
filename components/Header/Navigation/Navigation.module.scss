@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+
+  @media screen and (max-width: 991px) {
+    gap: 26px;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &Link {
+    display: block;
+    letter-spacing: 0.05em;
+    color: #21334f;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    // background-color: red;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+ul.menu {
+  @media screen and (max-width: 768px) {
+    padding-top: 24px;
+  }
+}

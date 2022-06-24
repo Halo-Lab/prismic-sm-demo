@@ -1,0 +1,1163 @@
+{
+  "slices": {
+    "components": {
+      "benefits": {
+        "library": "slices",
+        "id": "benefits",
+        "name": "Benefits",
+        "description": "Benefits",
+        "model": {
+          "id": "benefits",
+          "type": "SharedSlice",
+          "name": "Benefits",
+          "description": "Benefits",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Benefits",
+              "primary": {
+                "benefitsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Benefits Title",
+                    "placeholder": ""
+                  }
+                },
+                "benefitsSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Benefits Sub Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "benefitsCardLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Benefits Card Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "benefitsCardTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Benefits Card Title",
+                    "placeholder": ""
+                  }
+                },
+                "benefitsCardText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Benefits Card Text",
+                    "placeholder": ""
+                  }
+                },
+                "benefitsCardLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Benefits Card Link",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "benefits",
+            "items": [
+              {
+                "benefitsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+                },
+                "benefitsCardTitle": "orchestrate bricks-and-clicks functionalities",
+                "benefitsCardText": "implement interactive paradigms",
+                "benefitsCardLink": "grow end-to-end interfaces"
+              },
+              {
+                "benefitsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                },
+                "benefitsCardTitle": "transform extensible paradigms",
+                "benefitsCardText": "harness wireless convergence",
+                "benefitsCardLink": "scale open-source deliverables"
+              },
+              {
+                "benefitsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                },
+                "benefitsCardTitle": "brand enterprise e-tailers",
+                "benefitsCardText": "unleash extensible action-items",
+                "benefitsCardLink": "exploit collaborative systems"
+              },
+              {
+                "benefitsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+                },
+                "benefitsCardTitle": "orchestrate open-source technologies",
+                "benefitsCardText": "disintermediate virtual methodologies",
+                "benefitsCardLink": "scale leading-edge experiences"
+              }
+            ],
+            "primary": {
+              "benefitsTitle": "embrace turn-key infrastructures",
+              "benefitsSubTitle": "target vertical paradigms"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "conversion": {
+        "library": "slices",
+        "id": "conversion",
+        "name": "Conversion",
+        "description": "Conversion",
+        "model": {
+          "id": "conversion",
+          "type": "SharedSlice",
+          "name": "Conversion",
+          "description": "Conversion",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Conversion",
+              "primary": {
+                "conversionSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Conversion Sub Title",
+                    "placeholder": ""
+                  }
+                },
+                "conversionTrial": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Conversion Trial",
+                    "placeholder": ""
+                  }
+                },
+                "conversionPlaceholder": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Conversion Placeholder",
+                    "placeholder": ""
+                  }
+                },
+                "conversionArrow": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Conversion Arrow",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "conversionTagline": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Conversion Tagline",
+                    "placeholder": ""
+                  }
+                },
+                "conversionTaglineLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Conversion Tagline Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "conversionImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Conversion Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "conversion",
+            "items": [],
+            "primary": {
+              "conversionSubTitle": "utilize transparent niches",
+              "conversionTrial": "generate leading-edge content",
+              "conversionPlaceholder": "deploy open-source networks",
+              "conversionArrow": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+              },
+              "conversionTagline": "empower impactful initiatives",
+              "conversionTaglineLogo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+              },
+              "conversionImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "footer": {
+        "library": "slices",
+        "id": "footer",
+        "name": "Footer",
+        "description": "Footer",
+        "model": {
+          "id": "footer",
+          "type": "SharedSlice",
+          "name": "Footer",
+          "description": "Footer",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Footer",
+              "primary": {
+                "footerLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Footer Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "footerText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Footer Text",
+                    "placeholder": ""
+                  }
+                },
+                "footerHaloText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Footer Halo Text",
+                    "placeholder": ""
+                  }
+                },
+                "footerHaloLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Footer Halo Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "footerSocialLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Footer Social Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "footer",
+            "items": [
+              {
+                "footerSocialLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "footerSocialLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "footerSocialLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "footerLogo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+              },
+              "footerText": "harness vertical vortals",
+              "footerHaloText": "morph global technologies",
+              "footerHaloLogo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "header": {
+        "library": "slices",
+        "id": "header",
+        "name": "Header",
+        "description": "Header",
+        "model": {
+          "id": "header",
+          "type": "SharedSlice",
+          "name": "Header",
+          "description": "Header",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Header",
+              "primary": {
+                "logo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "buttonLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Link",
+                    "placeholder": ""
+                  }
+                },
+                "buttonText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "linkHref": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Href",
+                    "placeholder": ""
+                  }
+                },
+                "linkName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Name",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "header",
+            "items": [
+              {
+                "linkHref": "generate impactful infrastructures",
+                "linkName": "synergize viral eyeballs"
+              },
+              {
+                "linkHref": "deliver ubiquitous content",
+                "linkName": "orchestrate dot-com interfaces"
+              },
+              {
+                "linkHref": "deploy best-of-breed web services",
+                "linkName": "enable 24/7 functionalities"
+              },
+              {
+                "linkHref": "benchmark rich e-markets",
+                "linkName": "evolve global experiences"
+              },
+              {
+                "linkHref": "reinvent dynamic initiatives",
+                "linkName": "innovate holistic networks"
+              }
+            ],
+            "primary": {
+              "logo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+              },
+              "buttonLink": "monetize transparent platforms",
+              "buttonText": "leverage extensible systems"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Header\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      },
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "heroTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Title",
+                    "placeholder": ""
+                  }
+                },
+                "heroText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Text",
+                    "placeholder": ""
+                  }
+                },
+                "heroButtonHref": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Button Href",
+                    "placeholder": ""
+                  }
+                },
+                "heroButton": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Button",
+                    "placeholder": ""
+                  }
+                },
+                "heroLinkHref": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Link Href",
+                    "placeholder": ""
+                  }
+                },
+                "heroLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Hero Link",
+                    "placeholder": ""
+                  }
+                },
+                "heroImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Hero Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero",
+            "items": [],
+            "primary": {
+              "heroTitle": "maximize cross-media architectures",
+              "heroText": "mesh holistic markets",
+              "heroButtonHref": "seize collaborative niches",
+              "heroButton": "matrix end-to-end e-markets",
+              "heroLinkHref": "integrate world-class partnerships",
+              "heroLink": "empower cutting-edge e-commerce",
+              "heroImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Hero\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
+      },
+      "mobile_app": {
+        "library": "slices",
+        "id": "mobile_app",
+        "name": "MobileApp",
+        "description": "MobileApp",
+        "model": {
+          "id": "mobile_app",
+          "type": "SharedSlice",
+          "name": "MobileApp",
+          "description": "MobileApp",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MobileApp",
+              "primary": {
+                "mobileAppTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Title",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Sub Title",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Text",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppButton": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Button",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Mobile App Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "mobileAppReports": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Reports",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppReportsLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Mobile App Reports Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "mobileAppMessages": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Mobile App Messages",
+                    "placeholder": ""
+                  }
+                },
+                "mobileAppMessagesLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Mobile App Messages Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "mobile_app",
+            "items": [],
+            "primary": {
+              "mobileAppTitle": "enhance viral communities",
+              "mobileAppSubTitle": "syndicate extensible convergence",
+              "mobileAppText": "expedite real-time synergies",
+              "mobileAppButton": "synergize integrated infrastructures",
+              "mobileAppImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+              },
+              "mobileAppReports": "optimize rich communities",
+              "mobileAppReportsLogo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+              },
+              "mobileAppMessages": "embrace one-to-one bandwidth",
+              "mobileAppMessagesLogo": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "partners": {
+        "library": "slices",
+        "id": "partners",
+        "name": "Partners",
+        "description": "Partners",
+        "model": {
+          "id": "partners",
+          "type": "SharedSlice",
+          "name": "Partners",
+          "description": "Partners",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Partners",
+              "primary": {
+                "partnersTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Partners Title",
+                    "placeholder": ""
+                  }
+                },
+                "partnersSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Partners Sub Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "partnersLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Partners Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "partners",
+            "items": [
+              {
+                "partnersLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "partnersLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "partnersTitle": "unleash 24/365 convergence",
+              "partnersSubTitle": "deliver out-of-the-box communities"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Partners\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      },
+      "stats": {
+        "library": "slices",
+        "id": "stats",
+        "name": "Stats",
+        "description": "Stats",
+        "model": {
+          "id": "stats",
+          "type": "SharedSlice",
+          "name": "Stats",
+          "description": "Stats",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Stats",
+              "primary": {
+                "statsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Stats Title",
+                    "placeholder": ""
+                  }
+                },
+                "statsSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Stats Sub Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "statsNumber": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Stats Number",
+                    "placeholder": ""
+                  }
+                },
+                "statsNumberDescription": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Stats Number Description",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "stats",
+            "items": [
+              {
+                "statsNumber": "syndicate proactive mindshare",
+                "statsNumberDescription": "whiteboard holistic initiatives"
+              },
+              {
+                "statsNumber": "synergize world-class web services",
+                "statsNumberDescription": "innovate value-added action-items"
+              },
+              {
+                "statsNumber": "productize transparent eyeballs",
+                "statsNumberDescription": "visualize bleeding-edge portals"
+              },
+              {
+                "statsNumber": "aggregate bricks-and-clicks vortals",
+                "statsNumberDescription": "target dot-com infomediaries"
+              },
+              {
+                "statsNumber": "utilize cross-media e-business",
+                "statsNumberDescription": "seize virtual portals"
+              }
+            ],
+            "primary": {
+              "statsTitle": "deploy revolutionary experiences",
+              "statsSubTitle": "orchestrate cross-media functionalities"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "testimonials": {
+        "library": "slices",
+        "id": "testimonials",
+        "name": "Testimonials",
+        "description": "Testimonials",
+        "model": {
+          "id": "testimonials",
+          "type": "SharedSlice",
+          "name": "Testimonials",
+          "description": "Testimonials",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Testimonials",
+              "primary": {
+                "testimonialsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Testimonials Title",
+                    "placeholder": ""
+                  }
+                },
+                "testimonialsSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Testimonials Sub Title",
+                    "placeholder": ""
+                  }
+                },
+                "testimonialsArrowLeft": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimonials Arrow Left",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "testimonialsArrowRight": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimonials Arrow Right",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "testimonialsStar": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimonials Star",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "testimonialsEmptyStar": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimonials Empty Star",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "testimonialsStarCount": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Testimonials Star Count",
+                    "placeholder": ""
+                  }
+                },
+                "testimonialsCardText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Testimonials Card Text",
+                    "placeholder": ""
+                  }
+                },
+                "testimonialsCardLogo": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Testimonials Card Logo",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "testimonialsCardSign": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Testimonials Card Sign",
+                    "placeholder": ""
+                  }
+                },
+                "testimonialsCardProfession": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Testimonials Card Profession",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "testimonials",
+            "items": [
+              {
+                "testimonialsStarCount": 6228,
+                "testimonialsCardText": "generate visionary models",
+                "testimonialsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                },
+                "testimonialsCardSign": "embrace strategic e-commerce",
+                "testimonialsCardProfession": "reinvent bricks-and-clicks action-items"
+              },
+              {
+                "testimonialsStarCount": 4282,
+                "testimonialsCardText": "expedite viral niches",
+                "testimonialsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                },
+                "testimonialsCardSign": "visualize cross-platform functionalities",
+                "testimonialsCardProfession": "integrate B2B experiences"
+              },
+              {
+                "testimonialsStarCount": 2503,
+                "testimonialsCardText": "deploy innovative e-tailers",
+                "testimonialsCardLogo": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+                },
+                "testimonialsCardSign": "expedite vertical action-items",
+                "testimonialsCardProfession": "syndicate front-end content"
+              }
+            ],
+            "primary": {
+              "testimonialsTitle": "innovate robust technologies",
+              "testimonialsSubTitle": "leverage front-end synergies",
+              "testimonialsArrowLeft": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+              },
+              "testimonialsArrowRight": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+              },
+              "testimonialsStar": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+              },
+              "testimonialsEmptyStar": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

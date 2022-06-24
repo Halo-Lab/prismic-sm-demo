@@ -1,0 +1,171 @@
+.conversion {
+  position: relative;
+  padding: 80px;
+  min-height: 440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 1100px) {
+    padding: 60px 40px;
+    min-height: 400px;
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 30px;
+    min-height: 350px;
+  }
+
+  @media (max-width: 860px) {
+    min-height: 400px;
+  }
+
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    padding: 40px 16px;
+  }
+
+  &Content {
+    position: relative;
+    z-index: 1;
+    max-width: 344px;
+
+    @media (max-width: 640px) {
+      max-width: 100%;
+      margin-top: auto;
+    }
+  }
+
+  &Info {
+    @media (max-width: 640px) {
+      max-width: 220px;
+    }
+  }
+
+  &Desc {
+    padding-top: 32px;
+    font-size: 16px;
+    line-height: 180%;
+    opacity: 0.7;
+
+    @media (max-width: 640px) {
+      padding-top: 16px;
+      max-width: 217px;
+    }
+  }
+
+  &Img {
+    position: absolute;
+    bottom: -26px;
+    right: -80px;
+    width: 503px;
+    height: 552px;
+
+    @media (max-width: 1200px) {
+      width: 400px;
+      height: 440px;
+    }
+
+    @media (max-width: 991px) {
+      width: 300px;
+      height: 330px;
+    }
+
+    @media (max-width: 860px) {
+      width: 240px;
+      height: 263px;
+      right: -48px;
+    }
+
+    @media (max-width: 768px) {
+      right: -32px;
+    }
+
+    @media (max-width: 640px) {
+      width: 158px;
+      height: 173px;
+      bottom: 96px;
+    }
+  }
+
+  &Form {
+    padding-top: 48px;
+
+    @media (max-width: 640px) {
+      padding-top: 40px;
+    }
+
+    &Input {
+      height: 64px;
+    }
+  }
+
+  &Reply {
+    position: absolute;
+    right: 106%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 8px;
+    min-width: 152px;
+    padding: 26px;
+    top: 50%;
+    background: #ffffff;
+    border-radius: 20px;
+    transform: rotate(15deg) translateY(-50%);
+
+    @media (max-width: 991px) {
+      padding: 16px;
+    }
+
+    @media (max-width: 860px) {
+      top: inherit;
+      bottom: 100%;
+      right: 40%;
+      border-radius: 14.5336px;
+      transform: rotate(9.26deg) translateY(-40%);
+    }
+
+    @media (max-width: 640px) {
+      min-width: 112px;
+    }
+
+    &Icon {
+      position: absolute;
+      top: 20px;
+      left: 100%;
+      margin-left: -8px;
+      transform: rotate(-5deg);
+
+      @media (max-width: 860px) {
+        margin-left: 0;
+        left: 60%;
+        top: 82%;
+        transform: rotate(75deg);
+      }
+    }
+
+    &Text {
+      display: block;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 120%;
+      padding-top: 12px;
+
+      @media (max-width: 640px) {
+        font-size: 12px;
+        padding-top: 8px;
+      }
+    }
+  }
+}
+
+.stickerImg {
+  object-fit: contain;
+  width: 32px;
+  height: 32px;
+}

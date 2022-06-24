@@ -1,0 +1,16 @@
+.partners {
+  &List {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 930px) {
+    gap: 80px;
+  }
+  @media (max-width: 568px) {
+    gap: 20px;
+    justify-content: space-between;
+  }
+}

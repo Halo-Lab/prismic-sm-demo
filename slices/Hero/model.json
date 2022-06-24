@@ -1,0 +1,69 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero",
+      "primary": {
+        "heroTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Title",
+            "placeholder": ""
+          }
+        },
+        "heroText": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Text",
+            "placeholder": ""
+          }
+        },
+        "heroButtonHref": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Button Href",
+            "placeholder": ""
+          }
+        },
+        "heroButton": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Button",
+            "placeholder": ""
+          }
+        },
+        "heroLinkHref": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Link Href",
+            "placeholder": ""
+          }
+        },
+        "heroLink": {
+          "type": "Text",
+          "config": {
+            "label": "Hero Link",
+            "placeholder": ""
+          }
+        },
+        "heroImage": {
+          "type": "Image",
+          "config": {
+            "label": "Hero Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

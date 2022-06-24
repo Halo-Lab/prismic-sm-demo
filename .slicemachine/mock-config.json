@@ -1,0 +1,62 @@
+{
+  "_cts": {
+    "home": {}
+  },
+  "slices": {
+    "Navigation": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Header": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Hero": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Partners": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Benefits": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "BenefitsCard": {},
+    "Stats": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "MobileApp": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Testimonials": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Conversion": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Footer": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}
