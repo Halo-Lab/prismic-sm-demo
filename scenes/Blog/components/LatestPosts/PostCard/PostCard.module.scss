@@ -2,15 +2,20 @@
   &Card {
     text-decoration: none;
     color: #21334f;
-    transition: all 0.3s ease-in-out;
 
-    &:hover .postImageBox {
-      box-shadow: 0px 0px 7px 0px #b7b7b7;
+    .postImageBox {
       transition: all 0.3s ease-in-out;
 
       & img {
-        transform: scale(1.03);
         transition: all 0.3s ease-in-out;
+      }
+    }
+
+    &:hover .postImageBox {
+      box-shadow: 0px 0px 7px 0px #b7b7b7;
+
+      & img {
+        transform: scale(1.03);
       }
     }
     @media (max-width: 768px) {

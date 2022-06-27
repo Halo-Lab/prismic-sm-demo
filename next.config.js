@@ -1,7 +1,4 @@
 const nextConfig = {
-	experimental: {
-		esmExternals: true,
-	},
 	webpack: (config, options) => {
 		config.module.rules.push({
 			test: /\.svg$/,

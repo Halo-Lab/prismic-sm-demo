@@ -160,7 +160,135 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Benefits\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Benefits\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
+      },
+      "blog_hero": {
+        "library": "slices",
+        "id": "blog_hero",
+        "name": "BlogHero",
+        "description": "BlogHero",
+        "model": {
+          "id": "blog_hero",
+          "type": "SharedSlice",
+          "name": "BlogHero",
+          "description": "BlogHero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BlogHero",
+              "primary": {
+                "blogHeroTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Blog Hero Title",
+                    "placeholder": ""
+                  }
+                },
+                "blogHeroDate": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Blog Hero Date",
+                    "placeholder": ""
+                  }
+                },
+                "blogHeroText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Blog Hero Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                },
+                "blogHeroLinkName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Blog Hero Link Name",
+                    "placeholder": ""
+                  }
+                },
+                "blogHeroLinkHref": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Blog Hero Link Href",
+                    "placeholder": ""
+                  }
+                },
+                "blogHeroImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Blog Hero Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "blogHeroImageCover": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Blog Hero Image Cover",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "blog_hero",
+            "items": [],
+            "primary": {
+              "blogHeroTitle": "integrate clicks-and-mortar functionalities",
+              "blogHeroDate": "generate cross-media synergies",
+              "blogHeroText": [
+                {
+                  "type": "paragraph",
+                  "text": "Sunt ullamco minim dolore pariatur mollit minim aliqua sunt aliquip. Reprehenderit laboris dolor magna incididunt.",
+                  "spans": []
+                }
+              ],
+              "blogHeroLinkName": "leverage compelling e-commerce",
+              "blogHeroLinkHref": "e-enable ubiquitous experiences",
+              "blogHeroImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+              },
+              "blogHeroImageCover": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\BlogHero\\default\\preview.png",
             "width": 800,
             "height": 60
           }
@@ -432,7 +560,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Footer\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Footer\\default\\preview.png",
             "width": 800,
             "height": 60
           }
@@ -547,7 +675,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Header\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Header\\default\\preview.png",
             "width": 800,
             "height": 73
           }
@@ -658,7 +786,159 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Hero\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Hero\\default\\preview.png",
+            "width": 800,
+            "height": 60
+          }
+        }
+      },
+      "latest_posts": {
+        "library": "slices",
+        "id": "latest_posts",
+        "name": "LatestPosts",
+        "description": "LatestPosts",
+        "model": {
+          "id": "latest_posts",
+          "type": "SharedSlice",
+          "name": "LatestPosts",
+          "description": "LatestPosts",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LatestPosts",
+              "primary": {},
+              "items": {
+                "latestPostsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Latest Posts Title",
+                    "placeholder": ""
+                  }
+                },
+                "latestPostsDate": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Latest Posts Date",
+                    "placeholder": ""
+                  }
+                },
+                "latestPostsText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Latest Posts Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                },
+                "latestPostsLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Latest Posts Link",
+                    "placeholder": ""
+                  }
+                },
+                "latestPostsImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Latest Posts Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "latestPostsImageCover": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Latest Posts Image Cover",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "latest_posts",
+            "items": [
+              {
+                "latestPostsTitle": "whiteboard 24/365 systems",
+                "latestPostsDate": "strategize open-source portals",
+                "latestPostsText": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aute ex occaecat excepteur Lorem nostrud in culpa nisi quis labore cillum quis. Ut esse fugiat laboris elit enim laborum id occaecat anim aliqua.",
+                    "spans": []
+                  }
+                ],
+                "latestPostsLink": "orchestrate rich models",
+                "latestPostsImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
+                },
+                "latestPostsImageCover": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "latestPostsTitle": "seize web-enabled e-commerce",
+                "latestPostsDate": "implement turn-key solutions",
+                "latestPostsText": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur qui ipsum veniam cupidatat anim reprehenderit cupidatat amet duis.",
+                    "spans": []
+                  }
+                ],
+                "latestPostsLink": "matrix 24/7 schemas",
+                "latestPostsImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                },
+                "latestPostsImageCover": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\LatestPosts\\default\\preview.png",
             "width": 800,
             "height": 60
           }
@@ -806,7 +1086,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\MobileApp\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\MobileApp\\default\\preview.png",
             "width": 800,
             "height": 60
           }
@@ -900,9 +1180,71 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Partners\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Partners\\default\\preview.png",
             "width": 800,
             "height": 73
+          }
+        }
+      },
+      "recommend_posts": {
+        "library": "slices",
+        "id": "recommend_posts",
+        "name": "RecommendPosts",
+        "description": "RecommendPosts",
+        "model": {
+          "id": "recommend_posts",
+          "type": "SharedSlice",
+          "name": "RecommendPosts",
+          "description": "RecommendPosts",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "RecommendPosts",
+              "primary": {
+                "recommendPostsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Recommend Posts Title",
+                    "placeholder": ""
+                  }
+                },
+                "recommendPostsSubTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Recommend Posts Sub Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "recommend_posts",
+            "items": [],
+            "primary": {
+              "recommendPostsTitle": "recontextualize real-time e-services",
+              "recommendPostsSubTitle": "extend 24/365 action-items"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\RecommendPosts\\default\\preview.png",
+            "width": 800,
+            "height": 60
           }
         }
       },
@@ -1152,7 +1494,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Irina\\Desktop\\next-slicemachine-demo\\.slicemachine\\assets\\slices\\Testimonials\\default\\preview.png",
+            "path": "C:\\Users\\Irina\\Desktop\\prismic-sm-demo\\.slicemachine\\assets\\slices\\Testimonials\\default\\preview.png",
             "width": 800,
             "height": 60
           }

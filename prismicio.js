@@ -7,19 +7,17 @@ export const repositoryName = prismic.getRepositoryName(endpoint)
 
 // Update the Link Resolver to match your project's route structure
 export function linkResolver(doc) {
-    switch (doc.type) {
-      case 'homepage':
-        return '/'
-      case 'blog':
-        return `/blog`
-      case 'preview':
-        return `/preview`
-      case 'blogpost' && doc.uid:
-        return `blog/${doc.uid}`
-      default:
-        return '/'
-    }
+  switch (doc.type) {
+    case 'homepage':
+      return '/'
+    case 'blog':
+      return `/blog`
+    case '/blog' && doc.uid:
+      return `/blog/${doc.uid}`
+    default:
+      return '/'
   }
+}
 
 // This factory function allows smooth preview setup
 export function createClient(config = {}) {

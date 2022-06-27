@@ -1,0 +1,72 @@
+{
+  "id": "blog_hero",
+  "type": "SharedSlice",
+  "name": "BlogHero",
+  "description": "BlogHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BlogHero",
+      "primary": {
+        "blogHeroTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Blog Hero Title",
+            "placeholder": ""
+          }
+        },
+        "blogHeroDate": {
+          "type": "Text",
+          "config": {
+            "label": "Blog Hero Date",
+            "placeholder": ""
+          }
+        },
+        "blogHeroText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Blog Hero Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "blogHeroLinkName": {
+          "type": "Text",
+          "config": {
+            "label": "Blog Hero Link Name",
+            "placeholder": ""
+          }
+        },
+        "blogHeroLinkHref": {
+          "type": "Text",
+          "config": {
+            "label": "Blog Hero Link Href",
+            "placeholder": ""
+          }
+        },
+        "blogHeroImage": {
+          "type": "Image",
+          "config": {
+            "label": "Blog Hero Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "blogHeroImageCover": {
+          "type": "Image",
+          "config": {
+            "label": "Blog Hero Image Cover",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

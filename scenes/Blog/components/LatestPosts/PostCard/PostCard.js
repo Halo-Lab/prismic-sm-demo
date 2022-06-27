@@ -1,28 +1,25 @@
-import React from "react";
 import Link from "next/link";
 import styles from "./PostCard.module.scss";
+import cutDescription from '../../../../../utils/cutDescription'
 
 const PostCard = ({ post }) => {
-  const { mainImage, title, subtitle, slug } = post;
+  const { latestPostsImage, latestPostsTitle, latestPostsText, latestPostsLink } = post;
 
-  const cutDescription = (text) => {
-    if (text) {
-      return text.slice(0, 87) + "...";
-    }
-  };
   return (
     <div>
-      <Link href={`/blog/${slug.current}`}>
+      <Link href={`/blog/${latestPostsLink}`}>
         <a className={styles.postCard}>
           <div className={styles.postImageBox}>
             <img
-              src={''}
+              src={latestPostsImage.url}
               className={styles.postImg}
-              alt={"post icon"}
+              alt={''}
             />
           </div>
-          <h3 className={styles.postTitle}>{title}</h3>
-          <p className={styles.postDescription}>{cutDescription(subtitle)}</p>
+          <h3 className={styles.postTitle}>{latestPostsTitle}</h3>
+          <p className={styles.postDescription}>
+            {cutDescription(latestPostsText[0].text, 87)}
+          </p>
         </a>
       </Link>
     </div>

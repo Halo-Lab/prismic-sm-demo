@@ -9,7 +9,7 @@ export async function getStaticProps() {
   }
 }
 
-function HomePage({ page }) {  
+function HomePage({ page }) {   
   return (
     <div>
       <Home page={page.data.slices} />

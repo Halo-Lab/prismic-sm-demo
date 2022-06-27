@@ -17,9 +17,6 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "header": {
-              "type": "SharedSlice"
-            },
             "hero": {
               "type": "SharedSlice"
             },
@@ -36,12 +33,6 @@
               "type": "SharedSlice"
             },
             "testimonials": {
-              "type": "SharedSlice"
-            },
-            "conversion": {
-              "type": "SharedSlice"
-            },
-            "footer": {
               "type": "SharedSlice"
             }
           }

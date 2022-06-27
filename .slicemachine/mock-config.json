@@ -1,6 +1,8 @@
 {
   "_cts": {
-    "home": {}
+    "home": {},
+    "layout": {},
+    "blog": {}
   },
   "slices": {
     "Navigation": {
@@ -54,6 +56,36 @@
       }
     },
     "Footer": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "BlogHero": {
+      "default": {
+        "primary": {
+          "blogHeroText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "LatestPosts": {
+      "default": {
+        "primary": {},
+        "items": {
+          "latestPostsText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "RecommendPosts": {
       "default": {
         "primary": {}
       }

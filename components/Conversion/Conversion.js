@@ -1,8 +1,8 @@
 import styles from "./Conversion.module.scss";
 import classNames from "classnames";
-import ArrowIcon from "../../../../assets/ArrowIcon/ArrowIcon";
-import ReplyIcon from "../../../../assets/ReplyIcon/ReplyIcon";
-import ButtonSend from "../../../../components/Buttons/ButtonSend/ButtonSend";
+import ArrowIcon from "../../assets/ArrowIcon/ArrowIcon";
+import ReplyIcon from "../../assets/ReplyIcon/ReplyIcon";
+import ButtonSend from "../Buttons/ButtonSend/ButtonSend";
 
 const Conversion = ({ data }) => {
   const { primary } = data;  

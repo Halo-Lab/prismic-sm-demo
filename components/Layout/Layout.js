@@ -1,12 +1,15 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import Conversion from '../Conversion/Conversion'
 
-function Layout({ siteconfig, children }) {
+function Layout({ data, children }) {
+
   return (
     <div>
-      <Header LayoutData={siteconfig} />
-      <main>{children}</main>
-      <Footer LayoutData={siteconfig} />
+      <Header data={data[0]} />
+         <main>{children}</main>
+      <Conversion data={data[1]} />
+      <Footer data={data[2]} />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+{
+  "id": "recommend_posts",
+  "type": "SharedSlice",
+  "name": "RecommendPosts",
+  "description": "RecommendPosts",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RecommendPosts",
+      "primary": {
+        "recommendPostsTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Recommend Posts Title",
+            "placeholder": ""
+          }
+        },
+        "recommendPostsSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Recommend Posts Sub Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

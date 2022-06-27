@@ -190,18 +190,24 @@ button {
   outline: none;
 }
 
+.section--conversion {
+    padding-bottom: 144px;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+        padding-bottom: 72px;
+      }      
+  }
+
 .container {
   margin: 0 auto;
   max-width: 1272px;
   width: 100%;
-  padding: 0 32px;
+  padding: 0 32px;  
 
   @media screen and (max-width: 768px) {
     padding: 0 24px 0 21px;
 
-    .section--conversion {
-      padding: 0;
-    }
     &.p0 {
       padding: 0;
     }
@@ -546,14 +552,6 @@ button {
     &--padding-none {
       padding: 0;
     }
-  }
-}
-
-.homepage {
-  padding-bottom: 144px;
-
-  @media (max-width: 640px) {
-    padding-bottom: 72px;
   }
 }
 

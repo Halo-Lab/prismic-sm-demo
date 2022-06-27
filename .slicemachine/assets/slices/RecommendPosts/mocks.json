@@ -1,0 +1,12 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "recommend_posts",
+    "items": [],
+    "primary": {
+      "recommendPostsTitle": "recontextualize real-time e-services",
+      "recommendPostsSubTitle": "extend 24/365 action-items"
+    }
+  }
+]
