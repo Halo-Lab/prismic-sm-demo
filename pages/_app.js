@@ -8,12 +8,14 @@ import { PrismicPreview } from '@prismicio/next'
 import { linkResolver, repositoryName } from '../prismicio'
 
 export default function App({ Component, pageProps }) {
+  const {pageTitle, pageDescription} = pageProps.data;
+
   return (
     <>
       <Head className="head">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
-        <meta name="description" content="Demo create app with Next.js and Prismic/Slicemashine CMS" />
-        <title>prismic-sm-demo</title>
+        <meta name="description" content={pageDescription} />
+        <title>{pageTitle}</title>
       </Head>    
       <PrismicProvider
         linkResolver={linkResolver}
@@ -26,7 +28,7 @@ export default function App({ Component, pageProps }) {
         )}
       >
         <PrismicPreview repositoryName={repositoryName}>
-          <Layout data={pageProps.data}>
+          <Layout data={pageProps.data.slices}>
             <Component {...pageProps} />
           </Layout>
         </PrismicPreview>
@@ -39,8 +41,8 @@ App.getInitialProps = async () => {
   let pageProps = {};
   const client = createClient()
   try {
-    let page = await client.getByUID('layout', 'layout')
-    pageProps["data"] = page.data.slices;
+    let page = await client.getByUID('layout', 'layout');    
+    pageProps["data"] = page.data;    
   } catch (error) {}
   return { pageProps };
 };

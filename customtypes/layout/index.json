@@ -12,6 +12,20 @@
           "placeholder": ""
         }
       },
+      "pageTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Page Title",
+          "placeholder": ""
+        }
+      },
+      "pageDescription": {
+        "type": "Text",
+        "config": {
+          "label": "Page Description",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
