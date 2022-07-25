@@ -1,5 +1,5 @@
 import styles from "./BlogPost.module.scss";
-import richTextIteration from '../../../../utils/richTextIteration'
+import { PrismicRichText } from '@prismicio/react';
 
 const BlogPost = ({ data, slug }) => {
     let postImage, postTitle, postDate, postText;
@@ -33,7 +33,9 @@ const BlogPost = ({ data, slug }) => {
           <div className={styles.inner_container}>          
             <h1 className={styles.postTitle}>{postTitle}</h1>
             <p className={styles.postDescription}>{postDate}</p>
-            <div className={styles.postDescription}>{richTextIteration(postText)}</div>          
+            <div className={styles.postDescription}>
+              <PrismicRichText field={postText} />
+            </div>          
           </div>
         </div>
       </div>
