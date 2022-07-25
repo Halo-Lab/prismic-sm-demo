@@ -236,13 +236,6 @@
                     "constraint": {},
                     "thumbnails": []
                   }
-                },
-                "video": {
-                  "type": "Embed",
-                  "config": {
-                    "label": "Video",
-                    "placeholder": ""
-                  }
                 }
               },
               "items": {},
@@ -257,17 +250,17 @@
             "slice_type": "blog_hero",
             "items": [],
             "primary": {
-              "blogHeroTitle": "enhance turn-key niches",
-              "blogHeroDate": "revolutionize wireless communities",
+              "blogHeroTitle": "target mission-critical networks",
+              "blogHeroDate": "syndicate transparent applications",
               "blogHeroText": [
                 {
                   "type": "paragraph",
-                  "text": "Qui consequat occaecat Lorem id commodo Lorem ex non.",
+                  "text": "Eiusmod pariatur veniam consectetur tempor aute nisi adipisicing minim et consequat esse minim nisi. Velit ex ullamco enim elit commodo proident voluptate. Duis qui magna incididunt consequat ullamco proident minim cillum consequat non.",
                   "spans": []
                 }
               ],
-              "blogHeroLinkName": "orchestrate enterprise portals",
-              "blogHeroLinkHref": "disintermediate cutting-edge functionalities",
+              "blogHeroLinkName": "facilitate wireless systems",
+              "blogHeroLinkHref": "seize world-class relationships",
               "blogHeroImage": {
                 "dimensions": {
                   "width": 900,
@@ -275,7 +268,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
               },
               "blogHeroImageCover": {
                 "dimensions": {
@@ -284,22 +277,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
-              },
-              "video": {
-                "title": "Data Modelling — Create your Custom Types and Slices",
-                "author_name": "Prismic",
-                "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
-                "type": "video",
-                "height": 113,
-                "width": 200,
-                "version": "1.0",
-                "provider_name": "YouTube",
-                "provider_url": "https://www.youtube.com/",
-                "thumbnail_height": 360,
-                "thumbnail_width": 480,
-                "thumbnail_url": "https://i.ytimg.com/vi/c-ATzcy6VkI/hqdefault.jpg",
-                "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/c-ATzcy6VkI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
               }
             }
           }
@@ -878,13 +856,6 @@
                     "constraint": {},
                     "thumbnails": []
                   }
-                },
-                "video": {
-                  "type": "Embed",
-                  "config": {
-                    "label": "Video",
-                    "placeholder": ""
-                  }
                 }
               },
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
@@ -898,16 +869,16 @@
             "slice_type": "latest_posts",
             "items": [
               {
-                "latestPostsTitle": "scale collaborative synergies",
-                "latestPostsDate": "engage mission-critical action-items",
+                "latestPostsTitle": "utilize vertical deliverables",
+                "latestPostsDate": "disintermediate visionary architectures",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Sint ex cupidatat sit esse aliquip ea anim voluptate voluptate dolore deserunt. Id veniam sunt ut.",
+                    "text": "Dolore dolore dolor est adipisicing ut anim veniam eu velit velit laboris magna ut. Do nisi minim adipisicing consectetur est irure aute consectetur esse cillum ipsum. Occaecat nostrud duis nostrud occaecat officia exercitation anim.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "cultivate impactful applications",
+                "latestPostsLink": "enable clicks-and-mortar technologies",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
@@ -915,7 +886,37 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                },
+                "latestPostsImageCover": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "latestPostsTitle": "syndicate efficient e-tailers",
+                "latestPostsDate": "transform vertical functionalities",
+                "latestPostsText": [
+                  {
+                    "type": "paragraph",
+                    "text": "Tempor esse duis occaecat adipisicing pariatur consequat magna excepteur do. Qui incididunt occaecat reprehenderit elit est adipisicing est amet occaecat mollit fugiat. Cillum reprehenderit voluptate cupidatat ex ipsum Lorem nostrud.",
+                    "spans": []
+                  }
+                ],
+                "latestPostsLink": "engineer compelling architectures",
+                "latestPostsImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
                 },
                 "latestPostsImageCover": {
                   "dimensions": {
@@ -925,34 +926,19 @@
                   "alt": "Placeholder image",
                   "copyright": null,
                   "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
-                },
-                "video": {
-                  "title": "Data Modelling — Create your Custom Types and Slices",
-                  "author_name": "Prismic",
-                  "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
-                  "type": "video",
-                  "height": 113,
-                  "width": 200,
-                  "version": "1.0",
-                  "provider_name": "YouTube",
-                  "provider_url": "https://www.youtube.com/",
-                  "thumbnail_height": 360,
-                  "thumbnail_width": 480,
-                  "thumbnail_url": "https://i.ytimg.com/vi/c-ATzcy6VkI/hqdefault.jpg",
-                  "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/c-ATzcy6VkI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                 }
               },
               {
-                "latestPostsTitle": "integrate open-source technologies",
-                "latestPostsDate": "incentivize strategic synergies",
+                "latestPostsTitle": "harness vertical infrastructures",
+                "latestPostsDate": "exploit user-centric schemas",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Dolore exercitation aliquip deserunt elit eiusmod incididunt non duis consectetur duis esse magna sit deserunt incididunt.",
+                    "text": "Officia voluptate proident fugiat tempor dolore. Commodo occaecat labore adipisicing ut aliqua Lorem officia eiusmod et exercitation aute Lorem.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "implement scalable e-markets",
+                "latestPostsLink": "enhance magnetic schemas",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
@@ -960,7 +946,7 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
                 },
                 "latestPostsImageCover": {
                   "dimensions": {
@@ -969,33 +955,20 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
-                },
-                "video": {
-                  "url": "https://twitter.com/timbenniks/status/1304146886832594944",
-                  "author_name": "Tim Benniks",
-                  "author_url": "https://twitter.com/timbenniks",
-                  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">I’ve been diving deep on <a href=\"https://twitter.com/prismicio?ref_src=twsrc%5Etfw\">@prismicio</a> <a href=\"https://twitter.com/hashtag/slicemachine?src=hash&amp;ref_src=twsrc%5Etfw\">#slicemachine</a> today. I made all my own components and I used custom slices. It works like a charm with <a href=\"https://twitter.com/nuxt_js?ref_src=twsrc%5Etfw\">@nuxt_js</a>. Also: I’m coding with this view. <a href=\"https://t.co/F0I8X9gz39\">pic.twitter.com/F0I8X9gz39</a></p>&mdash; Tim Benniks (@timbenniks) <a href=\"https://twitter.com/timbenniks/status/1304146886832594944?ref_src=twsrc%5Etfw\">September 10, 2020</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
-                  "width": 550,
-                  "height": null,
-                  "type": "rich",
-                  "cache_age": "3153600000",
-                  "provider_name": "Twitter",
-                  "provider_url": "http://www.twitter.com/",
-                  "version": "1.0"
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
                 }
               },
               {
-                "latestPostsTitle": "repurpose 24/7 ROI",
-                "latestPostsDate": "architect rich paradigms",
+                "latestPostsTitle": "leverage killer experiences",
+                "latestPostsDate": "aggregate extensible e-markets",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Mollit cillum ad amet est pariatur magna. Est ullamco deserunt in reprehenderit sit nulla commodo quis veniam veniam reprehenderit sit consequat.",
+                    "text": "Fugiat dolore minim est anim aliqua proident enim incididunt aliquip sit pariatur in enim in laborum.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "expedite revolutionary communities",
+                "latestPostsLink": "innovate efficient e-services",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
@@ -1003,7 +976,7 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
                 },
                 "latestPostsImageCover": {
                   "dimensions": {
@@ -1012,20 +985,7 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
-                },
-                "video": {
-                  "url": "https://twitter.com/prismicio/status/1356293316158095361",
-                  "author_name": "Prismic",
-                  "author_url": "https://twitter.com/prismicio",
-                  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Gatsby is a popular choice for Prismic users and we work hard on delivering a CMS that plays to its strengths.<br><br>But, what makes <a href=\"https://twitter.com/GatsbyJS?ref_src=twsrc%5Etfw\">@GatsbyJS</a> so popular?<br><br>Here are some of <a href=\"https://twitter.com/mxstbr?ref_src=twsrc%5Etfw\">@mxstbr</a>&#39;s thoughts on Gatsby&#39;s success and how they&#39;re improving developer experience.<a href=\"https://t.co/ZjCPvsWWUD\">https://t.co/ZjCPvsWWUD</a> <a href=\"https://t.co/EQqzJpeNKl\">pic.twitter.com/EQqzJpeNKl</a></p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1356293316158095361?ref_src=twsrc%5Etfw\">February 1, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
-                  "width": 550,
-                  "height": null,
-                  "type": "rich",
-                  "cache_age": "3153600000",
-                  "provider_name": "Twitter",
-                  "provider_url": "http://www.twitter.com/",
-                  "version": "1.0"
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
                 }
               }
             ],

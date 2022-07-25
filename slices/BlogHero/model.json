@@ -63,13 +63,6 @@
             "constraint": {},
             "thumbnails": []
           }
-        },
-        "video": {
-          "type": "Embed",
-          "config": {
-            "label": "Video",
-            "placeholder": ""
-          }
         }
       },
       "items": {},
