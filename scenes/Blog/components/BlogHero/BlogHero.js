@@ -4,21 +4,21 @@ import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPr
 import ArrowIcon from "../../../../assets/ArrowIcon/ArrowIcon";
 import cutDescription from '../../../../utils/cutDescription'
 
-const BlogHero = ({ data }) => {
-  const {primary} = data;
-  const { blogHeroTitle, blogHeroText, blogHeroLinkHref, blogHeroImage } = primary;
+const BlogHero = ({ data }) => {  
+  const {items} = data;
+  const { latestPostsImage, latestPostsTitle, latestPostsText, latestPostsLink } = items[0];
 
   return (
     <div className="hero">
       <div className="container">
         <div className={styles.heroInner}>
           <div className={styles.heroContent}>
-            <h1 className={styles.heroTitle}>{blogHeroTitle}</h1>
+            <h1 className={styles.heroTitle}>{latestPostsTitle}</h1>
             <p className={styles.heroSubtitle}>
-              {cutDescription(blogHeroText[0].text, 189)}
+              {cutDescription(latestPostsText[0].text, 189)}
             </p>
             <ButtonPrimary
-              buttonLink={`/blog/${blogHeroLinkHref}`}
+              buttonLink={`/blog/${latestPostsLink}`}
               mod="button--regular"
               Icon={ArrowIcon}
             />
@@ -26,8 +26,8 @@ const BlogHero = ({ data }) => {
           <div className={styles.heroImage}>
             <img
               className="heroImg"
-              src={blogHeroImage.url}
-              alt={''}
+              src={latestPostsImage.url}
+              alt={latestPostsImage.alt}
               loading="eager"
             />
           </div>

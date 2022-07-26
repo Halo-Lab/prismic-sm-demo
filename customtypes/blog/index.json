@@ -17,13 +17,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "blog_hero": {
-              "type": "SharedSlice"
-            },
             "latest_posts": {
-              "type": "SharedSlice"
-            },
-            "recommend_posts": {
               "type": "SharedSlice"
             }
           }

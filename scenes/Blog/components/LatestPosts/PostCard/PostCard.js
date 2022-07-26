@@ -13,7 +13,7 @@ const PostCard = ({ post }) => {
             <img
               src={latestPostsImage.url}
               className={styles.postImg}
-              alt={''}
+              alt={latestPostsImage.alt}
             />
           </div>
           <h3 className={styles.postTitle}>{latestPostsTitle}</h3>

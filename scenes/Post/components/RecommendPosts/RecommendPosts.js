@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 SwiperCore.use([Pagination]);
 
 const renderPosts = (data) => {
-  const postData = data[1].items.slice(0, 3);
+  const postData = data[0].items.slice(1, 4);
   const postsList = postData.map(item => {
     return <PostCard key={item.latestPostsLink} post={item} />;
   });
@@ -17,7 +17,7 @@ const renderPosts = (data) => {
 };
 
 const renderSwiperPosts = (data) => {
-  const postData = data[1].items.slice(0, 4);
+  const postData = data[0].items.slice(1, 5);
   const postsList = postData.map(item => {
     return (
       <SwiperSlide key={item.latestPostsLink}>
@@ -47,8 +47,7 @@ const swiperPost = (data) => {
 };
 
 const RecommendPosts = ({data}) => {  
-  const {recommendPostsTitle, recommendPostsSubTitle} = data[2].primary
-
+  
   const [isMobile, setMobile] = useState(false);
   const screenWidth = useMediaQuery({ query: "(max-width: 754px)" });
 
@@ -60,8 +59,8 @@ const RecommendPosts = ({data}) => {
     <div className={styles.posts}>
       <div className="container">
         <div className={styles.recommend_head}>
-          <p className="section-category">{recommendPostsTitle}</p>
-          <h2 className="section-title">{recommendPostsSubTitle}</h2>
+          <p className="section-category">Next read</p>
+          <h2 className="section-title">Recommended articles</h2>
           </div>
         <div className={styles.postsInner}>
           {isMobile ? swiperPost(data) : renderPosts(data)}

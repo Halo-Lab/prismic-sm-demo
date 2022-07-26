@@ -6,7 +6,7 @@ const Blog = ({ page }) => {
   return (
     <div className={styles.wrapper}>
       <BlogHero data={page[0]} />
-      <LatestPosts data={page[1]} />
+      <LatestPosts data={page[0]} />
     </div>
   );
 };
