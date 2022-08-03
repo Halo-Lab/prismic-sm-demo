@@ -60,18 +60,6 @@
         "primary": {}
       }
     },
-    "BlogHero": {
-      "default": {
-        "primary": {
-          "blogHeroText": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
-      }
-    },
     "LatestPosts": {
       "default": {
         "primary": {},
