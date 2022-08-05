@@ -4,7 +4,7 @@ import ButtonWithArrow from "../../../../../components/Buttons/ButtonWithArrow/B
 import classnames from "classnames";
 
 const BenefitsItem = ({ data, index, isOpenBenefits }) => {
-  const { benefitsCardLogo, benefitsCardTitle, benefitsCardText, benefitsCardLink, benefitsCardLinkHref } = data;
+  const { benefitsCardLogo, benefitsCardTitle, benefitsCardText, benefitsCardLink} = data;
 
   return (
     <div
