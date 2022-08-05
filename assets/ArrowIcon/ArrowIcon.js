@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ArrowIcon = () => {
   return (
     <div className="icon">

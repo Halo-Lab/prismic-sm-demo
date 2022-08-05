@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./ButtonWithArrow.module.scss";
 import ArrowIcon from "../../../assets/ArrowIcon/ArrowIcon";
 

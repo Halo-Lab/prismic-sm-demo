@@ -90,3 +90,31 @@
     line-height: 19.2px;
   }
 }
+
+.imageContainer {
+  width: 584px;
+  height: 472px;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    width: 328px;
+    height: 264px;
+    margin: 0 auto 30px auto;
+  }
+}
+
+.imageContainer * {
+  position: unset !important;
+}
+
+.image {
+  object-fit: contain;
+  object-position: center center;
+  width: 100% !important;
+  position: relative !important;
+  height: 472px !important;
+
+  @media screen and (max-width: 768px) {
+    height: 264px !important;
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import Image from 'next/image';
 
 import styles from "./TestimonialAuthor.module.scss";
 
@@ -6,7 +6,7 @@ const TestimonialAuthor = ({ name, position, avatarImg, avatarAlt }) => {
   return (
     <div className={styles.testimonialAuthor}>
       <div className={styles.testimonialAuthorImg}>
-        <img src={avatarImg.url} className={styles.img} alt={avatarAlt} />
+        <Image src={avatarImg.url} className={styles.img} alt={avatarAlt} width="64px" height="64px" layout="fixed"/>
       </div>
       <div className={styles.testimonialAuthorInfo}>
         <span className={styles.testimonialAuthorName}>{name}</span>

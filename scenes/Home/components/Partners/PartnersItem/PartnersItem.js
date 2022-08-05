@@ -1,4 +1,5 @@
-import React from "react";
+import Image from 'next/image';
+
 import s from "./PartnersItem.module.scss";
 
 const PartnersItem = ({ data }) => {
@@ -6,7 +7,9 @@ const PartnersItem = ({ data }) => {
 
   return (
     <div className={s.partnersItem}>
-      <img className={s.img} src={partnersLogo.url} alt={partnersLogo.alt} />
+      <div className={s.imageContainer}>
+        <Image src={partnersLogo.url} className={s.image} alt={partnersLogo.alt} layout="fill" priority /> 
+      </div>
     </div>
   );
 };

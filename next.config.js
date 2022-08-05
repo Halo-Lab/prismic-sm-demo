@@ -1,4 +1,7 @@
 const nextConfig = {
+	images: {
+    domains: ['images.prismic.io', 'next-slicemachine-demo.cdn.prismic.io']
+  },
 	webpack: (config, options) => {
 		config.module.rules.push({
 			test: /\.svg$/,

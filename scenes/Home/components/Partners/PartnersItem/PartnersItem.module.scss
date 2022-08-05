@@ -3,36 +3,60 @@
   align-items: center;
   justify-content: center;
   &:nth-child(1) {
-    img {
+    .imageContainer {
       max-width: 90px;
+      height: 28px;
+      overflow: hidden;
     }
   }
   &:nth-child(2) {
-    .img {
+    .imageContainer {
       max-width: 84px;
+      height: 28px;
+      overflow: hidden;
     }
   }
   &:nth-child(3) {
-    .img {
+    .imageContainer {
       max-width: 84px;
+      height: 28px;
+      overflow: hidden;
     }
   }
   &:nth-child(4) {
-    .img {
+    .imageContainer {
       max-width: 122px;
+      height: 28px;
+      overflow: hidden;
     }
   }
   &:nth-child(5) {
-    .img {
+    .imageContainer {
       max-width: 111px;
+      height: 28px;
+      overflow: hidden;
     }
   }
   &:nth-child(6) {
-    .img {
+    .imageContainer {
       max-width: 80px;
+      height: 28px;     
+      overflow: hidden;
     }
   }
   @media screen and (max-width: 768px) {
     width: 45%;
+  }
+
+  .imageContainer * {
+    position: unset !important;
+  }
+  
+  .image {
+    object-fit: cover;
+    object-position: center center;
+    width: 100% !important;
+    position: relative !important;
+    height: 100% !important;
   }
 }

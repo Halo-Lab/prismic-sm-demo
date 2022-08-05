@@ -31,13 +31,17 @@
     }
   }
 
-  &Img {
+  .imageContainer {
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     width: 296px;
     height: 474px;
+
+    & * {
+      position: unset !important;
+    }
 
     @media screen and (max-width: 991px) {
       width: 200px;
@@ -48,6 +52,14 @@
       width: 150px;
       height: 240px;
     }
+  }
+
+  .image {
+    object-fit: cover;
+    object-position: center center;
+    width: 100% !important;
+    position: relative !important;
+    height: 100% !important;
   }
 
   &Info {

@@ -1,4 +1,5 @@
-import React from "react";
+import Image from 'next/image';
+
 import s from "./BenefitsItem.module.scss";
 import ButtonWithArrow from "../../../../../components/Buttons/ButtonWithArrow/ButtonWithArrow";
 import classnames from "classnames";
@@ -12,8 +13,8 @@ const BenefitsItem = ({ data, index, isOpenBenefits }) => {
         [s.benefitsItemHide]: index > 2 && isOpenBenefits,
       })}
       key={index}
-    >
-      <img className={s.img} src={benefitsCardLogo.url} alt={benefitsCardTitle} />
+    >    
+      <Image src={benefitsCardLogo.url} className={s.img} alt={benefitsCardTitle} width="32px" height="32px" layout="fixed" />
       <h3 className={s.benefitsItemTitle}>{benefitsCardTitle}</h3>
       <p className={s.benefitsItemDesc}>{benefitsCardText}</p>
       <ButtonWithArrow buttonText={benefitsCardLink} mod="button--regular" />

@@ -1,4 +1,4 @@
-import React from "react";
+import Image from 'next/image';
 import Link from "next/link";
 import styles from "./Footer.module.scss";
 
@@ -6,7 +6,6 @@ import Social from "../Social/Social";
 
 const Footer = ({ data }) => {
   const { items, primary } = data;
-  const { footerSocialLogo } = items;
   const { footerLogo, footerText, footerHaloText, footerHaloLogo } = primary;
 
   return (
@@ -15,7 +14,7 @@ const Footer = ({ data }) => {
         <div className={styles.footerTop}>
           <Link href="/">
             <a>
-              <img className="logo" src={footerLogo.url} />
+              <Image src={footerLogo.url} alt={footerLogo.alt} width="192px" height="32px" layout="fixed" />
             </a>
           </Link>
           <Social footerSocialsArr={items} />
@@ -25,7 +24,7 @@ const Footer = ({ data }) => {
             <span className={styles.copyrightText}>{footerText}</span>
             <a href="https://www.halo-lab.com/" className={styles.copyrightCompany}>
               <div className={styles.copyrightCompanyImg}>
-                <img src={footerHaloLogo.url} alt="Halo Lab icon" />
+              <Image src={footerHaloLogo.url} alt={footerHaloLogo.alt} width="20px" height="20px" layout="fixed" />  
               </div>
               <span className={styles.copyrightCompanyName}>
                 Made in&nbsp;

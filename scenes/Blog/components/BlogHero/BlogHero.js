@@ -1,4 +1,5 @@
-import React from "react";
+import Image from 'next/image';
+
 import styles from "./BlogHero.module.scss";
 import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPrimary";
 import ArrowIcon from "../../../../assets/ArrowIcon/ArrowIcon";
@@ -23,13 +24,8 @@ const BlogHero = ({ data }) => {
               Icon={ArrowIcon}
             />
           </div>
-          <div className={styles.heroImage}>
-            <img
-              className="heroImg"
-              src={latestPostsImage.url}
-              alt={latestPostsImage.alt}
-              loading="eager"
-            />
+          <div className={styles.imageContainer}>
+            <Image src={latestPostsImage.url} className={styles.image} alt={latestPostsImage.alt} layout="fill" priority /> 
           </div>
         </div>
       </div>

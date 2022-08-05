@@ -1,4 +1,5 @@
-import React from "react";
+import Image from 'next/image';
+
 import s from "./MobileAppFunction.module.scss";
 
 const MobileAppFunction = ({ data }) => {
@@ -6,7 +7,7 @@ const MobileAppFunction = ({ data }) => {
 
   return (
     <div className={s.mobileAppFunction}>
-      <img className={s.img} src={mobileAppFunctionLogo.url} alt={mobileAppFunctionText} />
+      <Image src={mobileAppFunctionLogo.url} className={s.img} alt={mobileAppFunctionText} width="38px" height="38px" layout="fixed" /> 
       <span className={s.mobileAppFunctionText}>{mobileAppFunctionText}</span>
     </div>
   );

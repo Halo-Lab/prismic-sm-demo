@@ -1,5 +1,7 @@
-import styles from "./Conversion.module.scss";
+import Image from 'next/image';
 import classNames from "classnames";
+
+import styles from "./Conversion.module.scss";
 import ArrowIcon from "../../assets/ArrowIcon/ArrowIcon";
 import ReplyIcon from "../../assets/ReplyIcon/ReplyIcon";
 import ButtonSend from "../Buttons/ButtonSend/ButtonSend";
@@ -39,16 +41,14 @@ const Conversion = ({ data }) => {
                   <div className={styles.conversionReplyIcon}>
                     <ReplyIcon />
                   </div>
-                  <img
-                    src={conversionTaglineLogo.url}
-                    className={styles.stickerImg}
-                    alt={conversionTagline}
-                  />
+                  <Image src={conversionTaglineLogo.url} className={styles.stickerImg} alt={conversionTagline} width="32px" height="32px" layout="fixed"/>      
                   <span className={styles.conversionReplyText}>
                     {conversionTagline}
                   </span>
                 </div>
-                <img src={conversionImage.url} />
+                <div className={styles.conversionImageContainer}>
+                  <Image src={conversionImage.url} className={styles.conversionImage} alt={conversionImage.alt} layout="fill" priority /> 
+                </div>
               </div>
             </div>
           </div>

@@ -71,3 +71,31 @@
     padding-bottom: 20px;
   }
 }
+
+.imageContainer {
+  width: 376px;
+  height: 288px;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    width: 328px;
+    height: 248px;
+    margin: 0 auto 30px auto;
+  }
+}
+
+.imageContainer * {
+  position: unset !important;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center center;
+  width: 100% !important;
+  position: relative !important;
+  height: 288px !important;
+
+  @media screen and (max-width: 768px) {
+    height: 248px !important;
+  }
+}

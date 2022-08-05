@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./TestimonialsItem.module.scss";
 import TestimonialAuthor from "./TestimonialAuthor/TestimonialAuthor";
 import Rating from "./Rating/Rating";

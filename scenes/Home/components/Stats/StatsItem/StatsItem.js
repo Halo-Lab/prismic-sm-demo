@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./StatsItem.module.scss";
 
 const StatsItem = ({ data }) => {

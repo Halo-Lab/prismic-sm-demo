@@ -1,4 +1,5 @@
-import React from "react";
+import Image from 'next/image';
+
 import styles from "./Social.module.scss";
 
 const Social = ({ footerSocialsArr }) => {
@@ -7,13 +8,8 @@ const Social = ({ footerSocialsArr }) => {
 
     return (
       <li className={styles.socialItem} key={index}>
-        <a href={footerSocialLink}>
-          <img
-            className={styles.socialIcon}
-            loading="lazy"
-            src={footerSocialLogo.url}
-            alt={footerSocialLogo.alt}
-          />
+        <a href={footerSocialLink} className={styles.socialLink}>
+          <Image src={footerSocialLogo.url} className={styles.socialIcon} alt={footerSocialLogo.alt} width="24px" height="24px" layout="fixed" />
         </a>
       </li>
     );

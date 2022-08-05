@@ -162,10 +162,29 @@
       }
     }
   }
+
+  .conversionImageContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    & * {
+      position: unset !important;
+    }
+  }
+
+  .conversionImage {
+    object-fit: cover;
+    object-position: center center;
+    width: 100% !important;
+    position: relative !important;
+    height: 100% !important;
+  }
+
+  .stickerImg {
+    object-fit: contain;
+  }
 }
 
-.stickerImg {
-  object-fit: contain;
-  width: 32px;
-  height: 32px;
-}
+

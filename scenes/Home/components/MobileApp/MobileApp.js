@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import s from "./MobileApp.module.scss";
 import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPrimary";
 import MobileAppFunction from "./MobileAppFunction/MobileAppFunction";
@@ -26,11 +28,9 @@ const MobileApp = ({ data }) => {
                   <div className={s.MobileAppFunctions}>
                     {mobileAppFunctions}
                   </div>
-                  <img
-                    className={s.mobileAppImg}
-                    src={mobileAppImage.url}
-                    alt={''}
-                  />
+                  <div className={s.imageContainer}>
+                    <Image src={mobileAppImage.url} className={s.image} alt={mobileAppImage.alt} layout="fill" priority /> 
+                  </div>
                 </div>
               </div>
             </div>

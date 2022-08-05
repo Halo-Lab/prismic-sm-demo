@@ -1,7 +1,7 @@
 .img {
   width: 32px;
   height: 32px;
-  margin-bottom: 24px;
+  object-fit: contain;
 }
 
 .benefitsItem {
@@ -35,6 +35,7 @@
   }
 
   &Title {
+    padding-top: 24px;
     padding-bottom: 16px;
     font-weight: bold;
     font-size: 18px;

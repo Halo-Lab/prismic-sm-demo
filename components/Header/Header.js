@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from "next/link";
+
 import styles from "./Header.module.scss";
 import ButtonPrimary from "../Buttons/ButtonPrimary/ButtonPrimary";
 import Navigation from "./Navigation/Navigation";
@@ -14,7 +16,7 @@ const Header = ({ data }) => {
         <div className={styles.headerWrap}>
           <Link href="/">
             <a>
-              <img className="logo" src={logo.url} />
+              <Image src={logo.url} alt={logo.alt} width="192px" height="32px" layout="fixed" />
             </a>
           </Link>
           <div className={styles.headerRight}>

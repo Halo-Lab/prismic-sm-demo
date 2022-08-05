@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import s from "./Hero.module.scss";
 import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPrimary";
 import ButtonWithArrow from "../../../../components/Buttons/ButtonWithArrow/ButtonWithArrow";
@@ -27,11 +29,9 @@ const Hero = ({ data }) => {
                 </div>
               </div>
               <div className={s.video}>
-                <img
-                  className={s.videoImg}
-                  src={heroImage.url}
-                  alt={''}
-                />
+              <div className={s.heroImageContainer}>
+                <Image src={heroImage.url} className={s.heroImage} alt={heroImage.alt} layout="fill" priority /> 
+              </div> 
               </div>
             </div>
           </section>

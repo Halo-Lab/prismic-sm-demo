@@ -1,5 +1,5 @@
 import s from "./Benefits.module.scss";
-import React, { useState } from "react";
+import { useState } from "react";
 import BenefitsItem from "./BenefitsItem/BenefitsItem";
 import SecondArrowIcon from "../../../../assets/SecondArrowIcon/SecondArrowIcon";
 import classnames from "classnames";

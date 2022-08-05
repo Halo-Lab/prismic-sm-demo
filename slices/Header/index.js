@@ -1,4 +1,3 @@
-import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
 const Header = ({ slice }) => (
