@@ -1,8 +1,8 @@
 import { createClient } from '../../prismicio'
 import Blog from "../../scenes/Blog/Blog"
 
-export async function getStaticProps() {
-  const client = createClient()
+export async function getStaticProps({ previewData }) {
+  const client = createClient({ previewData })
   const page = await client.getByUID('blog', 'blog')
   return {
     props: { page },

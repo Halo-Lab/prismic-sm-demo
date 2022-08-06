@@ -4,6 +4,7 @@
   justify-content: center;
   &:nth-child(1) {
     .imageContainer {
+      position: relative;
       max-width: 90px;
       height: 28px;
       overflow: hidden;
@@ -11,6 +12,7 @@
   }
   &:nth-child(2) {
     .imageContainer {
+      position: relative;
       max-width: 84px;
       height: 28px;
       overflow: hidden;
@@ -18,6 +20,7 @@
   }
   &:nth-child(3) {
     .imageContainer {
+      position: relative;
       max-width: 84px;
       height: 28px;
       overflow: hidden;
@@ -25,6 +28,7 @@
   }
   &:nth-child(4) {
     .imageContainer {
+      position: relative;
       max-width: 122px;
       height: 28px;
       overflow: hidden;
@@ -32,6 +36,7 @@
   }
   &:nth-child(5) {
     .imageContainer {
+      position: relative;
       max-width: 111px;
       height: 28px;
       overflow: hidden;
@@ -39,6 +44,7 @@
   }
   &:nth-child(6) {
     .imageContainer {
+      position: relative;
       max-width: 80px;
       height: 28px;     
       overflow: hidden;

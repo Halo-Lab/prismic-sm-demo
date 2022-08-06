@@ -1,8 +1,8 @@
 import { createClient } from '../prismicio'
 import Home from '../scenes/Home/Home'
 
-export async function getStaticProps() {
-  const client = createClient()
+export async function getStaticProps({ previewData }) {
+  const client = createClient({ previewData })
   const page = await client.getByUID('home', 'home')
   return {
     props: { page },
