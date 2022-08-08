@@ -1,9 +1,18 @@
 {
-  "id": "8cd761a8-e2fd-4d14-bde3-58edf7aa9aa4",
-  "uid": "consequatur-amet-voluptates",
+  "id": "mock-doc-id",
+  "url": null,
   "type": "layout",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
   "data": {
-    "pageTitle": "brand granular web services",
-    "pageDescription": "iterate cross-platform bandwidth"
+    "pageTitle": "pour",
+    "pageDescription": "per",
+    "slices": []
   }
 }

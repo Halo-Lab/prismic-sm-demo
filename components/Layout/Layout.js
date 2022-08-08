@@ -1,15 +1,14 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Conversion from '../Conversion/Conversion'
+import getSlice from '../../utils/getSlice';
 
 function Layout({ data, children }) {
 
   return (
     <div>
-      <Header data={data[0]} />
+      <Header data={getSlice(data, "header")} />
          <main>{children}</main>
-      <Conversion data={data[1]} />
-      <Footer data={data[2]} />
+      <Footer data={getSlice(data, "footer")} />
     </div>
   );
 }

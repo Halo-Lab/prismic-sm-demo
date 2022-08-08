@@ -34,9 +34,6 @@
             "header": {
               "type": "SharedSlice"
             },
-            "conversion": {
-              "type": "SharedSlice"
-            },
             "footer": {
               "type": "SharedSlice"
             }

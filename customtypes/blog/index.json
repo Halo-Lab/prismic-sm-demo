@@ -19,6 +19,9 @@
           "choices": {
             "latest_posts": {
               "type": "SharedSlice"
+            },
+            "conversion": {
+              "type": "SharedSlice"
             }
           }
         }

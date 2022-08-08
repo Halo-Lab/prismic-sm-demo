@@ -7,6 +7,8 @@ import ReplyIcon from "../../assets/ReplyIcon/ReplyIcon";
 import ButtonSend from "../Buttons/ButtonSend/ButtonSend";
 
 const Conversion = ({ data }) => {
+
+  if(!data) return;
   const { primary } = data;  
   const { conversionSubTitle, conversionTrial, conversionPlaceholder, conversionImage, conversionTagline, conversionTaglineLogo } = primary;
 

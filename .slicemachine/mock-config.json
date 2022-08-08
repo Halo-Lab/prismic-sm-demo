@@ -74,6 +74,13 @@
     },
     "Conversion": {
       "default": {
+        "primary": {
+          "conversionTaglineLogo": {
+            "content": "https://images.unsplash.com/photo-1555169062-013468b47731"
+          }
+        }
+      },
+      "conversionBlog": {
         "primary": {}
       }
     },

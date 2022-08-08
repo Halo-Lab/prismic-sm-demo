@@ -32,12 +32,59 @@
             "placeholder": ""
           }
         },
-        "conversionArrow": {
+        "conversionTagline": {
+          "type": "Text",
+          "config": {
+            "label": "Conversion Tagline",
+            "placeholder": ""
+          }
+        },
+        "conversionTaglineLogo": {
           "type": "Image",
           "config": {
-            "label": "Conversion Arrow",
+            "label": "Conversion Tagline Logo",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "conversionImage": {
+          "type": "Image",
+          "config": {
+            "label": "Conversion Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "conversionBlog",
+      "name": "ConversionBlog",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Conversion",
+      "primary": {
+        "conversionSubTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Conversion Sub Title",
+            "placeholder": ""
+          }
+        },
+        "conversionTrial": {
+          "type": "Text",
+          "config": {
+            "label": "Conversion Trial",
+            "placeholder": ""
+          }
+        },
+        "conversionPlaceholder": {
+          "type": "Text",
+          "config": {
+            "label": "ConversionPlaceholder",
+            "placeholder": ""
           }
         },
         "conversionTagline": {
