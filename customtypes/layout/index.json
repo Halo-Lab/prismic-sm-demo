@@ -26,6 +26,13 @@
           "placeholder": ""
         }
       },
+      "google_analytics_id": {
+        "type": "Text",
+        "config": {
+          "label": "GOOGLE_ANALYTICS_ID",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

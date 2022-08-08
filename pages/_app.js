@@ -8,7 +8,7 @@ import { PrismicPreview } from '@prismicio/next'
 import { linkResolver, repositoryName } from '../prismicio'
 
 export default function App({ Component, pageProps }) {
-  const {pageTitle, pageDescription} = pageProps.data;
+  const {pageTitle, pageDescription, google_analytics_id} = pageProps.data;
 
   return (
     <>
@@ -16,6 +16,24 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
         <meta name="description" content={pageDescription} />
         <title>{pageTitle}</title>
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${google_analytics_id}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${google_analytics_id}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />      
+
       </Head>    
       <PrismicProvider
         linkResolver={linkResolver}
