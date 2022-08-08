@@ -19,10 +19,10 @@
             "placeholder": ""
           }
         },
-        "latestPostsDate": {
-          "type": "Text",
+        "latestpostsdate": {
+          "type": "Date",
           "config": {
-            "label": "Latest Posts Date",
+            "label": "LatestPostsDate",
             "placeholder": ""
           }
         },

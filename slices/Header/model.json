@@ -38,14 +38,14 @@
         "linkHref": {
           "type": "Text",
           "config": {
-            "label": "Link Href",
+            "label": "LinkHref",
             "placeholder": ""
           }
         },
         "linkName": {
           "type": "Text",
           "config": {
-            "label": "Link Name",
+            "label": "LinkName",
             "placeholder": ""
           }
         }

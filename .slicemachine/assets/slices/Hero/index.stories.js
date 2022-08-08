@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"hero","items":[],"primary":{"heroTitle":"maximize cross-media architectures","heroText":"mesh holistic markets","heroButtonHref":"seize collaborative niches","heroButton":"matrix end-to-end e-markets","heroLinkHref":"integrate world-class partnerships","heroLink":"empower cutting-edge e-commerce","heroImage":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"}},"id":"_Default"}} />
-_Default.storyName = 'Default'
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"heroTitle":"Hero Title","heroText":"Hero Text","heroButtonHref":"/","heroButton":"Hero Text","heroLinkHref":"Hero Text","heroLink":"/","heroImage":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1546182990-dffeafbe841d"}},"slice_type":"hero","id":"_Default"}} />
+_Default.storyName = ''

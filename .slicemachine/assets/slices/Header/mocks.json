@@ -1,28 +1,11 @@
 [
   {
     "variation": "default",
-    "name": "Default",
-    "slice_type": "header",
+    "version": "sktwi1xtmkfgx8626",
     "items": [
       {
-        "linkHref": "generate impactful infrastructures",
-        "linkName": "synergize viral eyeballs"
-      },
-      {
-        "linkHref": "deliver ubiquitous content",
-        "linkName": "orchestrate dot-com interfaces"
-      },
-      {
-        "linkHref": "deploy best-of-breed web services",
-        "linkName": "enable 24/7 functionalities"
-      },
-      {
-        "linkHref": "benchmark rich e-markets",
-        "linkName": "evolve global experiences"
-      },
-      {
-        "linkHref": "reinvent dynamic initiatives",
-        "linkName": "innovate holistic networks"
+        "linkHref": "least",
+        "linkName": "thought"
       }
     ],
     "primary": {
@@ -31,12 +14,13 @@
           "width": 900,
           "height": 500
         },
-        "alt": "Placeholder image",
+        "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636"
       },
-      "buttonLink": "monetize transparent platforms",
-      "buttonText": "leverage extensible systems"
-    }
+      "buttonLink": "exercise",
+      "buttonText": "nor"
+    },
+    "slice_type": "header"
   }
 ]

@@ -19,7 +19,29 @@
     },
     "Hero": {
       "default": {
-        "primary": {}
+        "primary": {
+          "heroTitle": {
+            "content": "Hero Title"
+          },
+          "heroImage": {
+            "content": "https://images.unsplash.com/photo-1546182990-dffeafbe841d"
+          },
+          "heroText": {
+            "content": "Hero Text"
+          },
+          "heroButtonHref": {
+            "content": "/"
+          },
+          "heroButton": {
+            "content": "Hero Text"
+          },
+          "heroLinkHref": {
+            "content": "Hero Text"
+          },
+          "heroLink": {
+            "content": "/"
+          }
+        }
       }
     },
     "Partners": {
@@ -69,6 +91,9 @@
               "patternType": "PARAGRAPH",
               "blocks": 1
             }
+          },
+          "latestPostsImageCover": {
+            "content": "https://images.unsplash.com/photo-1513682322455-ea8b2d81d418"
           }
         }
       }

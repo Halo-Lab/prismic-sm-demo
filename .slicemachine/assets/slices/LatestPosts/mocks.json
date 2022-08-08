@@ -1,130 +1,40 @@
 [
   {
     "variation": "default",
-    "name": "Default",
-    "slice_type": "latest_posts",
+    "version": "sktwi1xtmkfgx8626",
     "items": [
       {
-        "latestPostsTitle": "utilize vertical deliverables",
-        "latestPostsDate": "disintermediate visionary architectures",
+        "latestPostsTitle": "develop",
+        "latestpostsdate": "2015-06-01",
         "latestPostsText": [
           {
             "type": "paragraph",
-            "text": "Dolore dolore dolor est adipisicing ut anim veniam eu velit velit laboris magna ut. Do nisi minim adipisicing consectetur est irure aute consectetur esse cillum ipsum. Occaecat nostrud duis nostrud occaecat officia exercitation anim.",
+            "text": "Reprehenderit exercitation culpa proident cillum pariatur culpa cillum irure. Ipsum dolore sunt cupidatat magna eiusmod ad non ad fugiat labore.",
             "spans": []
           }
         ],
-        "latestPostsLink": "enable clicks-and-mortar technologies",
+        "latestPostsLink": "younger",
         "latestPostsImage": {
           "dimensions": {
             "width": 900,
             "height": 500
           },
-          "alt": "Placeholder image",
+          "alt": null,
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117"
         },
         "latestPostsImageCover": {
           "dimensions": {
             "width": 900,
             "height": 500
           },
-          "alt": "Placeholder image",
+          "alt": null,
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "latestPostsTitle": "syndicate efficient e-tailers",
-        "latestPostsDate": "transform vertical functionalities",
-        "latestPostsText": [
-          {
-            "type": "paragraph",
-            "text": "Tempor esse duis occaecat adipisicing pariatur consequat magna excepteur do. Qui incididunt occaecat reprehenderit elit est adipisicing est amet occaecat mollit fugiat. Cillum reprehenderit voluptate cupidatat ex ipsum Lorem nostrud.",
-            "spans": []
-          }
-        ],
-        "latestPostsLink": "engineer compelling architectures",
-        "latestPostsImage": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
-        },
-        "latestPostsImageCover": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "latestPostsTitle": "harness vertical infrastructures",
-        "latestPostsDate": "exploit user-centric schemas",
-        "latestPostsText": [
-          {
-            "type": "paragraph",
-            "text": "Officia voluptate proident fugiat tempor dolore. Commodo occaecat labore adipisicing ut aliqua Lorem officia eiusmod et exercitation aute Lorem.",
-            "spans": []
-          }
-        ],
-        "latestPostsLink": "enhance magnetic schemas",
-        "latestPostsImage": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
-        },
-        "latestPostsImageCover": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
-        }
-      },
-      {
-        "latestPostsTitle": "leverage killer experiences",
-        "latestPostsDate": "aggregate extensible e-markets",
-        "latestPostsText": [
-          {
-            "type": "paragraph",
-            "text": "Fugiat dolore minim est anim aliqua proident enim incididunt aliquip sit pariatur in enim in laborum.",
-            "spans": []
-          }
-        ],
-        "latestPostsLink": "innovate efficient e-services",
-        "latestPostsImage": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
-        },
-        "latestPostsImageCover": {
-          "dimensions": {
-            "width": 900,
-            "height": 500
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1513682322455-ea8b2d81d418"
         }
       }
     ],
-    "primary": {}
+    "primary": {},
+    "slice_type": "latest_posts"
   }
 ]

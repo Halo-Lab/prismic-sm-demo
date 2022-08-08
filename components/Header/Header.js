@@ -16,7 +16,7 @@ const Header = ({ data }) => {
         <div className={styles.headerWrap}>
           <Link href="/">
             <a>
-              <Image src={logo.url} alt={logo.alt} width="192px" height="32px" layout="fixed" />
+              <Image src={logo.url} alt={logo.alt} width="192px" height="32px" layout="fixed" priority />
             </a>
           </Link>
           <div className={styles.headerRight}>

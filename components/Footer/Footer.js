@@ -14,7 +14,7 @@ const Footer = ({ data }) => {
         <div className={styles.footerTop}>
           <Link href="/">
             <a>
-              <Image src={footerLogo.url} alt={footerLogo.alt} width="192px" height="32px" layout="fixed" />
+              <Image src={footerLogo.url} alt={footerLogo.alt} width="192px" height="32px" layout="fixed" priority/>
             </a>
           </Link>
           <Social footerSocialsArr={items} />

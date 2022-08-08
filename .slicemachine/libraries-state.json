@@ -483,14 +483,14 @@
                 "linkHref": {
                   "type": "Text",
                   "config": {
-                    "label": "Link Href",
+                    "label": "LinkHref",
                     "placeholder": ""
                   }
                 },
                 "linkName": {
                   "type": "Text",
                   "config": {
-                    "label": "Link Name",
+                    "label": "LinkName",
                     "placeholder": ""
                   }
                 }
@@ -502,28 +502,11 @@
         "mocks": {
           "default": {
             "variation": "default",
-            "name": "Default",
-            "slice_type": "header",
+            "version": "sktwi1xtmkfgx8626",
             "items": [
               {
-                "linkHref": "generate impactful infrastructures",
-                "linkName": "synergize viral eyeballs"
-              },
-              {
-                "linkHref": "deliver ubiquitous content",
-                "linkName": "orchestrate dot-com interfaces"
-              },
-              {
-                "linkHref": "deploy best-of-breed web services",
-                "linkName": "enable 24/7 functionalities"
-              },
-              {
-                "linkHref": "benchmark rich e-markets",
-                "linkName": "evolve global experiences"
-              },
-              {
-                "linkHref": "reinvent dynamic initiatives",
-                "linkName": "innovate holistic networks"
+                "linkHref": "least",
+                "linkName": "thought"
               }
             ],
             "primary": {
@@ -532,13 +515,14 @@
                   "width": 900,
                   "height": 500
                 },
-                "alt": "Placeholder image",
+                "alt": null,
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636"
               },
-              "buttonLink": "monetize transparent platforms",
-              "buttonText": "leverage extensible systems"
-            }
+              "buttonLink": "exercise",
+              "buttonText": "nor"
+            },
+            "slice_type": "header"
           }
         },
         "meta": {
@@ -630,26 +614,28 @@
         "mocks": {
           "default": {
             "variation": "default",
-            "name": "Default",
-            "slice_type": "hero",
-            "items": [],
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
             "primary": {
-              "heroTitle": "maximize cross-media architectures",
-              "heroText": "mesh holistic markets",
-              "heroButtonHref": "seize collaborative niches",
-              "heroButton": "matrix end-to-end e-markets",
-              "heroLinkHref": "integrate world-class partnerships",
-              "heroLink": "empower cutting-edge e-commerce",
+              "heroTitle": "Hero Title",
+              "heroText": "Hero Text",
+              "heroButtonHref": "/",
+              "heroButton": "Hero Text",
+              "heroLinkHref": "Hero Text",
+              "heroLink": "/",
               "heroImage": {
                 "dimensions": {
                   "width": 900,
                   "height": 500
                 },
-                "alt": "Placeholder image",
+                "alt": null,
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1546182990-dffeafbe841d"
               }
-            }
+            },
+            "slice_type": "hero"
           }
         },
         "meta": {
@@ -690,10 +676,10 @@
                     "placeholder": ""
                   }
                 },
-                "latestPostsDate": {
-                  "type": "Text",
+                "latestpostsdate": {
+                  "type": "Date",
                   "config": {
-                    "label": "Latest Posts Date",
+                    "label": "LatestPostsDate",
                     "placeholder": ""
                   }
                 },
@@ -737,131 +723,41 @@
         "mocks": {
           "default": {
             "variation": "default",
-            "name": "Default",
-            "slice_type": "latest_posts",
+            "version": "sktwi1xtmkfgx8626",
             "items": [
               {
-                "latestPostsTitle": "utilize vertical deliverables",
-                "latestPostsDate": "disintermediate visionary architectures",
+                "latestPostsTitle": "develop",
+                "latestpostsdate": "2015-06-01",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Dolore dolore dolor est adipisicing ut anim veniam eu velit velit laboris magna ut. Do nisi minim adipisicing consectetur est irure aute consectetur esse cillum ipsum. Occaecat nostrud duis nostrud occaecat officia exercitation anim.",
+                    "text": "Reprehenderit exercitation culpa proident cillum pariatur culpa cillum irure. Ipsum dolore sunt cupidatat magna eiusmod ad non ad fugiat labore.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "enable clicks-and-mortar technologies",
+                "latestPostsLink": "younger",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
                     "height": 500
                   },
-                  "alt": "Placeholder image",
+                  "alt": null,
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117"
                 },
                 "latestPostsImageCover": {
                   "dimensions": {
                     "width": 900,
                     "height": 500
                   },
-                  "alt": "Placeholder image",
+                  "alt": null,
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
-                }
-              },
-              {
-                "latestPostsTitle": "syndicate efficient e-tailers",
-                "latestPostsDate": "transform vertical functionalities",
-                "latestPostsText": [
-                  {
-                    "type": "paragraph",
-                    "text": "Tempor esse duis occaecat adipisicing pariatur consequat magna excepteur do. Qui incididunt occaecat reprehenderit elit est adipisicing est amet occaecat mollit fugiat. Cillum reprehenderit voluptate cupidatat ex ipsum Lorem nostrud.",
-                    "spans": []
-                  }
-                ],
-                "latestPostsLink": "engineer compelling architectures",
-                "latestPostsImage": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
-                },
-                "latestPostsImageCover": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
-                }
-              },
-              {
-                "latestPostsTitle": "harness vertical infrastructures",
-                "latestPostsDate": "exploit user-centric schemas",
-                "latestPostsText": [
-                  {
-                    "type": "paragraph",
-                    "text": "Officia voluptate proident fugiat tempor dolore. Commodo occaecat labore adipisicing ut aliqua Lorem officia eiusmod et exercitation aute Lorem.",
-                    "spans": []
-                  }
-                ],
-                "latestPostsLink": "enhance magnetic schemas",
-                "latestPostsImage": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
-                },
-                "latestPostsImageCover": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
-                }
-              },
-              {
-                "latestPostsTitle": "leverage killer experiences",
-                "latestPostsDate": "aggregate extensible e-markets",
-                "latestPostsText": [
-                  {
-                    "type": "paragraph",
-                    "text": "Fugiat dolore minim est anim aliqua proident enim incididunt aliquip sit pariatur in enim in laborum.",
-                    "spans": []
-                  }
-                ],
-                "latestPostsLink": "innovate efficient e-services",
-                "latestPostsImage": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
-                },
-                "latestPostsImageCover": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1513682322455-ea8b2d81d418"
                 }
               }
             ],
-            "primary": {}
+            "primary": {},
+            "slice_type": "latest_posts"
           }
         },
         "meta": {
