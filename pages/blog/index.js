@@ -1,5 +1,5 @@
-import { createClient } from '../../prismicio'
-import Blog from "../../scenes/Blog/Blog"
+import { createClient } from '../../prismicio';
+import Blog from "../../scenes/Blog/Blog";
 
 export async function getStaticProps({ previewData }) {
   const client = createClient({ previewData })

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { PrismicLink } from "@prismicio/react";
+
 import styles from "./Navigation.module.scss";
 
 const renderMenu = (items) => {
@@ -6,9 +8,9 @@ const renderMenu = (items) => {
 
     return (
       <li key={index}>
-        <Link href={item.linkHref}>
-          <a className={styles.menuLink}>{item.linkName}</a>
-        </Link>
+        <PrismicLink field={item.link}>
+          <span className={styles.menuLink}>{item.linkName}</span>
+        </PrismicLink>
       </li>
     );
   });

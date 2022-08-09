@@ -3,7 +3,7 @@ import { linkResolver, repositoryName } from '../prismicio';
 import { PrismicProvider } from '@prismicio/react';
 import { PrismicPreview } from '@prismicio/next';
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
-import Link from 'next/link'
+import Link from 'next/link';
 import Head from "next/head";
 
 

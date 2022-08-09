@@ -33,4 +33,10 @@ ul.menu {
   @media screen and (max-width: 768px) {
     padding-top: 24px;
   }
+
+  & li a {
+    text-decoration: none;
+  }
 }
+
+

@@ -35,18 +35,19 @@
         }
       },
       "items": {
-        "linkHref": {
-          "type": "Text",
-          "config": {
-            "label": "LinkHref",
-            "placeholder": ""
-          }
-        },
         "linkName": {
           "type": "Text",
           "config": {
             "label": "LinkName",
             "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
           }
         }
       },

@@ -8,8 +8,6 @@ const Hero = ({ data }) => {
   const { primary } = data;
   const {heroTitle, heroText, heroButton, heroButtonHref, heroLink, heroLinkHref, heroImage, herovideo} = primary;
 
-  console.log(herovideo.url)
-
   return (
     <div className="section">
       <div className={s.hero}>
