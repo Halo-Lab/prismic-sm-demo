@@ -1,11 +1,13 @@
-import { createClient } from '../prismicio'
-import "../styles/index.scss";
+import { createClient } from '../prismicio';
+import { linkResolver, repositoryName } from '../prismicio';
+import { PrismicProvider } from '@prismicio/react';
+import { PrismicPreview } from '@prismicio/next';
 import Link from 'next/link'
 import Head from "next/head";
+import Script from 'next/script';
+
 import Layout from "../components/Layout/Layout";
-import { PrismicProvider } from '@prismicio/react'
-import { PrismicPreview } from '@prismicio/next'
-import { linkResolver, repositoryName } from '../prismicio'
+import "../styles/index.scss";
 
 export default function App({ Component, pageProps }) {
   const {pageTitle, pageDescription, google_analytics_id} = pageProps.data;
@@ -17,23 +19,18 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content={pageDescription} />
         <title>{pageTitle}</title>
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${google_analytics_id}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${google_analytics_id}`}
+          strategy="afterInteractive"
+        />        
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${google_analytics_id}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />      
-
+            gtag('config', '${google_analytics_id}');
+          `}
+        </Script> 
       </Head>    
       <PrismicProvider
         linkResolver={linkResolver}

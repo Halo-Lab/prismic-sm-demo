@@ -60,6 +60,14 @@
             "constraint": {},
             "thumbnails": []
           }
+        },
+        "herovideo": {
+          "type": "Link",
+          "config": {
+            "label": "HeroVideo",
+            "placeholder": "",
+            "select": "media"
+          }
         }
       },
       "items": {},

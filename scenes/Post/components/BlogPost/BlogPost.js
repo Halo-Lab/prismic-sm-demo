@@ -1,6 +1,7 @@
 import styles from "./BlogPost.module.scss";
 import { PrismicRichText } from '@prismicio/react';
 import * as prismicH from "@prismicio/helpers";
+import YoutubeEmbed from '../../../../components/YoutubeEmbed/YoutubeEmbed'
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
@@ -14,6 +15,8 @@ const BlogPost = ({ data, slug }) => {
   const {latestPostsImageCover, latestPostsTitle, latestpostsdate, latestPostsText} = items[currentPage];
   const date = prismicH.asDate(latestpostsdate);
 
+  const video = Object.keys(items[currentPage].video).length ? <YoutubeEmbed embedId={items[currentPage].video.embed_url.replace('https://youtu.be/', '')} title={items[currentPage].video.title} /> : '';
+  
   return (
     <div className={styles.wrapper}>
       <div
@@ -30,7 +33,8 @@ const BlogPost = ({ data, slug }) => {
           </p>
           <div className={styles.postDescription}>
             <PrismicRichText field={latestPostsText} />
-          </div>          
+          </div>
+          {video}         
         </div>
       </div>
     </div>

@@ -676,6 +676,14 @@
                     "constraint": {},
                     "thumbnails": []
                   }
+                },
+                "herovideo": {
+                  "type": "Link",
+                  "config": {
+                    "label": "HeroVideo",
+                    "placeholder": "",
+                    "select": "media"
+                  }
                 }
               },
               "items": {},
@@ -705,6 +713,13 @@
                 "alt": null,
                 "copyright": null,
                 "url": "https://images.unsplash.com/photo-1546182990-dffeafbe841d"
+              },
+              "herovideo": {
+                "link_type": "Media",
+                "name": "mock",
+                "kind": "image",
+                "url": "https://source.unsplash.com/random",
+                "size": "10kB"
               }
             },
             "slice_type": "hero"
@@ -789,6 +804,70 @@
                 }
               },
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "postsWithVideo",
+              "name": "PostsWithVideo",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LatestPosts",
+              "primary": {},
+              "items": {
+                "latestPostsTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Latest Posts Title",
+                    "placeholder": ""
+                  }
+                },
+                "latestpostsdate": {
+                  "type": "Date",
+                  "config": {
+                    "label": "LatestPostsDate",
+                    "placeholder": ""
+                  }
+                },
+                "latestPostsText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Latest Posts Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                },
+                "latestPostsLink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Latest Posts Link",
+                    "placeholder": ""
+                  }
+                },
+                "latestPostsImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Latest Posts Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "latestPostsImageCover": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Latest Posts Image Cover",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "video": {
+                  "type": "Embed",
+                  "config": {
+                    "label": "Video",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -798,16 +877,16 @@
             "version": "sktwi1xtmkfgx8626",
             "items": [
               {
-                "latestPostsTitle": "develop",
-                "latestpostsdate": "2015-06-01",
+                "latestPostsTitle": "bent",
+                "latestpostsdate": "2020-05-01",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Reprehenderit exercitation culpa proident cillum pariatur culpa cillum irure. Ipsum dolore sunt cupidatat magna eiusmod ad non ad fugiat labore.",
+                    "text": "Ea incididunt ut exercitation id cupidatat fugiat quis labore adipisicing reprehenderit do.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "younger",
+                "latestPostsLink": "knew",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
@@ -815,7 +894,7 @@
                   },
                   "alt": null,
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117"
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa"
                 },
                 "latestPostsImageCover": {
                   "dimensions": {
@@ -825,6 +904,57 @@
                   "alt": null,
                   "copyright": null,
                   "url": "https://images.unsplash.com/photo-1513682322455-ea8b2d81d418"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "latest_posts"
+          },
+          "postsWithVideo": {
+            "variation": "postsWithVideo",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "latestPostsTitle": "bare",
+                "latestpostsdate": "2017-01-10",
+                "latestPostsText": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laborum consectetur veniam velit exercitation nisi magna fugiat eiusmod.",
+                    "spans": []
+                  }
+                ],
+                "latestPostsLink": "stranger",
+                "latestPostsImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88"
+                },
+                "latestPostsImageCover": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88"
+                },
+                "video": {
+                  "embed_url": "https://twitter.com/prismicio/status/1354835716430319617",
+                  "author_name": "Prismic",
+                  "author_url": "https://twitter.com/prismicio",
+                  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Does anyone want to create a wildly popular website for discussing &#39;Wall Street Bets&#39; using Prismic?<br><br>It may or may not have to look a lot like <a href=\"https://twitter.com/hashtag/reddit?src=hash&amp;ref_src=twsrc%5Etfw\">#reddit</a> and we won&#39;t make it private.<br><br>Just asking for some friends...</p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1354835716430319617?ref_src=twsrc%5Etfw\">January 28, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+                  "width": 550,
+                  "height": null,
+                  "type": "rich",
+                  "cache_age": "3153600000",
+                  "provider_name": "Twitter",
+                  "provider_url": "http://www.twitter.com/",
+                  "version": "1.0"
                 }
               }
             ],

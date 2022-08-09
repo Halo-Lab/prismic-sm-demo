@@ -60,6 +60,70 @@
         }
       },
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "postsWithVideo",
+      "name": "PostsWithVideo",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "LatestPosts",
+      "primary": {},
+      "items": {
+        "latestPostsTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Latest Posts Title",
+            "placeholder": ""
+          }
+        },
+        "latestpostsdate": {
+          "type": "Date",
+          "config": {
+            "label": "LatestPostsDate",
+            "placeholder": ""
+          }
+        },
+        "latestPostsText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Latest Posts Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "latestPostsLink": {
+          "type": "Text",
+          "config": {
+            "label": "Latest Posts Link",
+            "placeholder": ""
+          }
+        },
+        "latestPostsImage": {
+          "type": "Image",
+          "config": {
+            "label": "Latest Posts Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "latestPostsImageCover": {
+          "type": "Image",
+          "config": {
+            "label": "Latest Posts Image Cover",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "video": {
+          "type": "Embed",
+          "config": {
+            "label": "Video",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }

@@ -8,7 +8,7 @@ import Conversion from "../../components/Conversion/Conversion";
 import getSlice from "../../utils/getSlice"; 
 
 const Home = ({ page }) => {
-console.log(page)
+
   return (
     <div className="homepage">
       <Hero data={getSlice(page, "hero")} />
