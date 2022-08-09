@@ -156,23 +156,36 @@
     z-index: 10;
     overflow: hidden;
     width: 611px;
-    height: 447px;
+    height: 440px;
+    border-radius: 35px;
+    overflow: hidden;
+
+    & video {
+      width: 100%;      
+    }
 
   @media screen and (max-width: 1200px) {
     width: 460px;
-    height: 337px;
+    height: 331px;
+    border-radius: 25px;
   }
 
   @media screen and (max-width: 991px) {
     width: 370px;
-    height: 272px;
+    height: 266px;
+    border-radius: 20px;
   }
 
-  @media screen and (max-width: 575px) {
-    width: 100%;
-    padding: 19px 26px 0 14px;
-    height: 340px;
-    margin-bottom: 7%;
+  @media screen and (max-width: 460px) {
+    width: 300px;
+    height: 216px;
+    border-radius: 15px;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 240px;
+    height: 173px;
+    border-radius: 15px;
   }
 
     & * {

@@ -6,7 +6,9 @@ import ButtonWithArrow from "../../../../components/Buttons/ButtonWithArrow/Butt
 
 const Hero = ({ data }) => {
   const { primary } = data;
-  const {heroTitle, heroText, heroButton, heroButtonHref, heroLink, heroLinkHref, heroImage} = primary;
+  const {heroTitle, heroText, heroButton, heroButtonHref, heroLink, heroLinkHref, heroImage, herovideo} = primary;
+
+  console.log(herovideo.url)
 
   return (
     <div className="section">
@@ -30,7 +32,7 @@ const Hero = ({ data }) => {
               </div>
               <div className={s.video}>
               <div className={s.heroImageContainer}>
-                <Image src={heroImage.url} className={s.heroImage} alt={heroImage.alt} layout="fill" priority /> 
+                <video controls src={herovideo.url} poster={heroImage.url} /> 
               </div> 
               </div>
             </div>
