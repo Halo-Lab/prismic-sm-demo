@@ -7,6 +7,7 @@ export const repositoryName = prismic.getRepositoryName(endpoint)
 
 // Update the Link Resolver to match your project's route structure
 export function linkResolver(doc) {
+  console.log(doc.type);
   switch (doc.type) {
     case 'home':
       return '/'

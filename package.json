@@ -10,6 +10,7 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@bradgarropy/next-google-analytics": "^1.0.2",
     "@prismicio/client": "^6.6.4",
     "@prismicio/helpers": "^2.3.3",
     "@prismicio/next": "^0.1.3",

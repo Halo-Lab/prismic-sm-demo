@@ -2,9 +2,10 @@ import { createClient } from '../prismicio';
 import { linkResolver, repositoryName } from '../prismicio';
 import { PrismicProvider } from '@prismicio/react';
 import { PrismicPreview } from '@prismicio/next';
+import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import Link from 'next/link'
 import Head from "next/head";
-import Script from 'next/script';
+
 
 import Layout from "../components/Layout/Layout";
 import "../styles/index.scss";
@@ -18,19 +19,6 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
         <meta name="description" content={pageDescription} />
         <title>{pageTitle}</title>
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${google_analytics_id}`}
-          strategy="afterInteractive"
-        />        
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${google_analytics_id}');
-          `}
-        </Script> 
       </Head>    
       <PrismicProvider
         linkResolver={linkResolver}
@@ -44,6 +32,7 @@ export default function App({ Component, pageProps }) {
       >
         <PrismicPreview repositoryName={repositoryName}>
           <Layout data={pageProps.data.slices}>
+            <GoogleAnalytics measurementId={google_analytics_id} />
             <Component {...pageProps} />
           </Layout>
         </PrismicPreview>
