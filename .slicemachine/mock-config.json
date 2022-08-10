@@ -96,11 +96,20 @@
           "latestPostsText": {
             "config": {
               "patternType": "PARAGRAPH",
-              "blocks": 1
+              "blocks": 4
             }
           },
           "latestPostsImageCover": {
             "content": "https://images.unsplash.com/photo-1513682322455-ea8b2d81d418"
+          },
+          "latestPostsTitle": {
+            "content": "11111111111"
+          },
+          "latestpostsdate": {
+            "content": "2022-08-11"
+          },
+          "latestPostsLink": {
+            "content": "111111"
           }
         }
       },
