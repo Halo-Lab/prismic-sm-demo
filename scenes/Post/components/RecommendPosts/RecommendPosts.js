@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 SwiperCore.use([Pagination]);
 
 const renderPosts = (data) => {
-  const postData = data[0].items.slice(1, 4);
+  const postData = data.items.slice(1, 4);
   const postsList = postData.map(item => {
     return <PostCard key={item.latestPostsLink} post={item} />;
   });
@@ -17,7 +17,7 @@ const renderPosts = (data) => {
 };
 
 const renderSwiperPosts = (data) => {
-  const postData = data[0].items.slice(1, 5);
+  const postData = data.items.slice(1, 5);
   const postsList = postData.map(item => {
     return (
       <SwiperSlide key={item.latestPostsLink}>

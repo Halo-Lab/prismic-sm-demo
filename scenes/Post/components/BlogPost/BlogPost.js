@@ -10,7 +10,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
 });
 
 const BlogPost = ({ data, slug }) => {  
-  const { items } = data[0];
+  const { items } = data;
   const currentPage = slug.split('-')[1];
   const {latestPostsImageCover, latestPostsTitle, latestpostsdate, latestPostsText} = items[currentPage];
   const date = prismicH.asDate(latestpostsdate);
@@ -29,7 +29,7 @@ const BlogPost = ({ data, slug }) => {
         <div className={styles.inner_container}>          
           <h1 className={styles.postTitle}>{latestPostsTitle}</h1>
           <p className={styles.postDescription}>
-            {dateFormatter.format(date)}
+            Last updated: {dateFormatter.format(date)}
           </p>
           <div className={styles.postDescription}>
             <PrismicRichText field={latestPostsText} />

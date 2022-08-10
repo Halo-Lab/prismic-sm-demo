@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PrismicLink } from "@prismicio/react";
 
 import styles from "./Navigation.module.scss";
