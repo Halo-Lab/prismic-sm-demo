@@ -1,11 +1,13 @@
 .posts {
+  padding-top: 40px;
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
+
   &Slider {
     width: 100%;
     overflow: hidden;
-    position: relative;
-  }
-  padding: 0;
-  @media screen and (max-width: 768px) {
+    position: relative;    
   }
 
   &Inner {

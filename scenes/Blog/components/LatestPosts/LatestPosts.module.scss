@@ -8,6 +8,13 @@
   @media screen and (max-width: 768px) {
   }
 
+  &Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
   &Inner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

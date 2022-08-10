@@ -15,7 +15,7 @@ const Conversion = ({ data }) => {
   return (
     <div className="section section--conversion">
       <div className="container">
-        <div className="content-section content-section--blue">
+        <div className="content-section content-section--image">
           <div className="content-section__inner content-section__inner--padding-none">
             <div className={styles.conversion}>
               <div className={styles.conversionContent}>

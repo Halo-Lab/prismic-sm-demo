@@ -58,48 +58,6 @@ button {
   height: 16px;
 }
 
-.content-section {
-  background: linear-gradient(212.44deg, #f1d2c0 20.56%, #f9e1ca 80.57%),
-    #1e1d2a;
-  border-radius: 20px;
-  padding: 24px;
-  height: 100%;
-
-  @media screen and (max-width: 768px) {
-    padding: 8px;
-  }
-
-  &--green {
-    background: linear-gradient(212.44deg, #cff1c0 20.56%, #f9f8ca 80.57%);
-  }
-
-  &--blue {
-    background: linear-gradient(212.44deg, #c0e5f1 20.56%, #caf9f9 80.57%);
-  }
-
-  &--inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-
-  &__inner {
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    padding: 120px 0;
-    height: 100%;
-
-    @media screen and (max-width: 768px) {
-      padding: 64px 0;
-    }
-
-    &--padding-none {
-      padding: 0;
-    }
-  }
-}
 html {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -259,6 +217,10 @@ button {
 
     @media screen and (max-width: 991px) {
       padding: 10px 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 40px;
     }
 
     .button-wrapper {
@@ -529,6 +491,10 @@ button {
 
   &--blue {
     background: linear-gradient(212.44deg, #c0e5f1 20.56%, #caf9f9 80.57%);
+  }
+
+  &--image {
+    background: url("../public/img/bg.png");
   }
 
   &--inner {

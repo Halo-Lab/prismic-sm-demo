@@ -1,4 +1,6 @@
 .post {
+  display: block;
+
   &Card {
     text-decoration: none;
     color: #21334f;
@@ -69,6 +71,12 @@
     line-height: 28.8px;
     opacity: 0.7;
     padding-bottom: 20px;
+  }
+
+  &Hide {
+    @media screen and (max-width: 690px) {
+      display: none;
+    }
   }
 }
 

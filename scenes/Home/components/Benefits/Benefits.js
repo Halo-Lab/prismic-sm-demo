@@ -6,7 +6,7 @@ import classnames from "classnames";
 
 const Benefits = ({ data }) => {
   const { items, primary } = data;  
-  const { benefitsTitle, benefitsSubTitle,buttonShowText, buttonHiddenText } = primary;
+  const { benefitsTitle, benefitsSubTitle, buttonShowText, buttonHiddenText } = primary;
 
   const [isOpenBenefits, setIsOpenBenefits] = useState(true);
 
