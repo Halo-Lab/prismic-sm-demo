@@ -5,7 +5,7 @@ import styles from "./PostCard.module.scss";
 import cutDescription from '../../../../../utils/cutDescription'
 
 const PostCard = ({ post, index, isOpenPosts }) => {
-  const { latestPostsImage, latestPostsTitle, latestPostsText, latestPostsLink } = post;
+  const { postimage, posttitle, posttext, postlink } = post;
 
   return (
     <div
@@ -14,16 +14,16 @@ const PostCard = ({ post, index, isOpenPosts }) => {
       })}
       key={index}
     >
-      <Link href={`/blog/${latestPostsLink}`}>
+      <Link href={`/blog/${postlink}`}>
         <a className={styles.postCard}>
           <div className={styles.postImageBox}>
             <div className={styles.imageContainer}>
-              <Image src={latestPostsImage.url} className={styles.image} alt={latestPostsImage.alt} layout="fill" priority /> 
+              <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" priority /> 
             </div>
           </div>
-          <h3 className={styles.postTitle}>{latestPostsTitle}</h3>
+          <h3 className={styles.postTitle}>{posttitle}</h3>
           <p className={styles.postDescription}>
-            {cutDescription(latestPostsText[0].text, 87)}
+            {cutDescription(posttext[0].text, 87)}
           </p>
         </a>
       </Link>

@@ -101,16 +101,16 @@
       "default": {
         "primary": {},
         "items": {
-          "latestPostsText": {
+          "posttitle": {
+            "content": "11111111111"
+          },
+          "posttext": {
             "config": {
               "patternType": "PARAGRAPH",
               "blocks": 4
             }
           },
-          "latestPostsTitle": {
-            "content": "11111111111"
-          },
-          "latestPostsLink": {
+          "postlink": {
             "content": "111111"
           }
         }

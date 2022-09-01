@@ -1,5 +1,4 @@
-import { useRouter } from 'next/router';
-import { createClient, linkResolver } from '../../prismicio';
+import { createClient } from '../../prismicio';
 import Post from "../../scenes/Post/Post";
 
  export const getServerSideProps = async ({ previewData }) => {
@@ -14,13 +13,10 @@ import Post from "../../scenes/Post/Post";
 };
 
 const PostPage = ({ pages }) => {
-  const router = useRouter();
-  const slug   = router.query.slug;  
-  const page = pages.find(el => el.uid === slug);
-  // console.log(slug, pages, page);
+
   return (
     <div>      
-      <Post data={page.data} />     
+      <Post data={pages} />     
     </div>
   );  
 }

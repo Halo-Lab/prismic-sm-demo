@@ -12,33 +12,33 @@
       "description": "LatestPosts",
       "primary": {},
       "items": {
-        "latestPostsTitle": {
+        "posttitle": {
           "type": "Text",
           "config": {
-            "label": "Latest Posts Title",
+            "label": "Post Title",
             "placeholder": ""
           }
         },
-        "latestPostsText": {
+        "posttext": {
           "type": "StructuredText",
           "config": {
-            "label": "Latest Posts Text",
+            "label": "Post Text",
             "placeholder": "",
             "allowTargetBlank": true,
             "multi": "paragraph"
           }
         },
-        "latestPostsLink": {
+        "postlink": {
           "type": "Text",
           "config": {
-            "label": "Latest Posts Link",
+            "label": "Post Link",
             "placeholder": ""
           }
         },
-        "latestPostsImage": {
+        "postimage": {
           "type": "Image",
           "config": {
-            "label": "Latest Posts Image",
+            "label": "Post Image",
             "constraint": {},
             "thumbnails": []
           }

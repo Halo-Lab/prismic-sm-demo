@@ -49,6 +49,14 @@
           "multi": "paragraph"
         }
       },
+      "postimage": {
+        "type": "Image",
+        "config": {
+          "label": "PostImage",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
       "postimagecover": {
         "type": "Image",
         "config": {
@@ -64,14 +72,18 @@
           "placeholder": ""
         }
       },
+      "postlink": {
+        "type": "Text",
+        "config": {
+          "label": "PostLink",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "latest_posts": {
-              "type": "SharedSlice"
-            },
             "conversion": {
               "type": "SharedSlice"
             }

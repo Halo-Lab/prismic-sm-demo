@@ -7,25 +7,25 @@ import cutDescription from '../../../../utils/cutDescription'
 
 const BlogHero = ({ data }) => {  
   const {items} = data;
-  const { latestPostsImage, latestPostsTitle, latestPostsText, latestPostsLink } = items[0];
+  const { postimage, posttitle, posttext, postlink } = items[0];
 
   return (
     <div className="hero">
       <div className="container">
         <div className={styles.heroInner}>
           <div className={styles.heroContent}>
-            <h1 className={styles.heroTitle}>{latestPostsTitle}</h1>
+            <h1 className={styles.heroTitle}>{posttitle}</h1>
             <p className={styles.heroSubtitle}>
-              {cutDescription(latestPostsText[0].text, 189)}
+              {cutDescription(posttext[0].text, 189)}
             </p>
             <ButtonPrimary
-              buttonLink={`/blog/${latestPostsLink}`}
+              buttonLink={`/blog/${postlink}`}
               mod="button--regular"
               Icon={ArrowIcon}
             />
           </div>
           <div className={styles.imageContainer}>
-            <Image src={latestPostsImage.url} className={styles.image} alt={latestPostsImage.alt} layout="fill" priority /> 
+            <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" priority /> 
           </div>
         </div>
       </div>

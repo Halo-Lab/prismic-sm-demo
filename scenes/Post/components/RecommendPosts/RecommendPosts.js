@@ -9,19 +9,19 @@ import "swiper/css/pagination";
 SwiperCore.use([Pagination]);
 
 const renderPosts = (data) => {
-  const postData = data.items.slice(1, 4);
-  const postsList = postData.map(item => {
-    return <PostCard key={item.latestPostsLink} post={item} />;
+  const postData = data.slice(1, 4);
+  const postsList = postData.map((item, index) => {
+    return <PostCard key={index} post={item.data} />;
   });
   return postsList;
 };
 
 const renderSwiperPosts = (data) => {
   const postData = data.items.slice(1, 5);
-  const postsList = postData.map(item => {
+  const postsList = postData.map((item, index) => {
     return (
-      <SwiperSlide key={item.latestPostsLink}>
-        <PostCard post={item} />
+      <SwiperSlide key={index}>
+        <PostCard post={item.data} />
       </SwiperSlide>
     );
   });
@@ -47,7 +47,6 @@ const swiperPost = (data) => {
 };
 
 const RecommendPosts = ({data}) => {  
-  
   const [isMobile, setMobile] = useState(false);
   const screenWidth = useMediaQuery({ query: "(max-width: 754px)" });
 

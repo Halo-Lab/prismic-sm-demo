@@ -6,7 +6,6 @@ import PostCard from "./PostCard/PostCard";
 
 const LatestPosts = ({ data }) => {
   const {items} = data;
-
   const [isOpenPosts, setIsOpenPosts] = useState(true);
 
   const handlePostsShow = () => {
