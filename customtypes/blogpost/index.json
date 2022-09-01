@@ -72,11 +72,11 @@
           "placeholder": ""
         }
       },
-      "postlink": {
-        "type": "Text",
+      "contentrelationship": {
+        "type": "Link",
         "config": {
-          "label": "PostLink",
-          "placeholder": ""
+          "label": "ContentRelationship",
+          "select": "document"
         }
       },
       "slices": {

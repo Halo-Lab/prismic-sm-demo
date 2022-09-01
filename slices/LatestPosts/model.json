@@ -28,19 +28,19 @@
             "multi": "paragraph"
           }
         },
-        "postlink": {
-          "type": "Text",
-          "config": {
-            "label": "Post Link",
-            "placeholder": ""
-          }
-        },
         "postimage": {
           "type": "Image",
           "config": {
             "label": "Post Image",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "contentrelationship": {
+          "type": "Link",
+          "config": {
+            "label": "ContentRelationship",
+            "select": "document"
           }
         }
       },

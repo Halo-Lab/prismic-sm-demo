@@ -863,19 +863,19 @@
                     "multi": "paragraph"
                   }
                 },
-                "postlink": {
-                  "type": "Text",
-                  "config": {
-                    "label": "Post Link",
-                    "placeholder": ""
-                  }
-                },
                 "postimage": {
                   "type": "Image",
                   "config": {
                     "label": "Post Image",
                     "constraint": {},
                     "thumbnails": []
+                  }
+                },
+                "contentrelationship": {
+                  "type": "Link",
+                  "config": {
+                    "label": "ContentRelationship",
+                    "select": "document"
                   }
                 }
               },
@@ -935,26 +935,25 @@
                 "posttext": [
                   {
                     "type": "paragraph",
-                    "text": "Minim est sit minim et ullamco dolor tempor do aliquip pariatur adipisicing officia cupidatat. Id anim ea minim magna pariatur incididunt magna qui magna labore aliqua ea cillum excepteur tempor. Cillum irure nisi cupidatat in nisi adipisicing duis sunt commodo laborum eu.",
+                    "text": "Do dolore duis ullamco laboris officia ullamco amet voluptate.",
                     "spans": []
                   },
                   {
                     "type": "paragraph",
-                    "text": "Ullamco magna voluptate quis.",
+                    "text": "Id ad et laboris adipisicing amet laborum aute laboris amet nisi tempor ad quis.",
                     "spans": []
                   },
                   {
                     "type": "paragraph",
-                    "text": "Lorem cillum excepteur amet irure sunt culpa anim. Labore labore id eiusmod ut nulla incididunt commodo ea deserunt laboris consequat aliqua ullamco. Sunt ipsum elit ad culpa tempor aute irure nisi exercitation do do.",
+                    "text": "Fugiat laborum excepteur nostrud amet velit ea ut sint duis eiusmod aliqua mollit officia dolor duis.",
                     "spans": []
                   },
                   {
                     "type": "paragraph",
-                    "text": "Tempor voluptate enim adipisicing velit tempor nostrud Lorem quis excepteur.",
+                    "text": "Aliquip minim incididunt aliquip sunt ut ea nulla dolor fugiat nostrud. Labore consectetur qui aliquip laboris proident incididunt irure. Dolore ullamco ipsum mollit ea.",
                     "spans": []
                   }
                 ],
-                "postlink": "111111",
                 "postimage": {
                   "dimensions": {
                     "width": 900,
@@ -962,7 +961,17 @@
                   },
                   "alt": null,
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482"
+                  "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                },
+                "contentrelationship": {
+                  "id": "mock_document_id",
+                  "link_type": "Document",
+                  "type": "mock",
+                  "tags": [],
+                  "lang": "en-us",
+                  "slug": null,
+                  "first_publication_date": "1970-01-01T00:00:01+0000",
+                  "last_publication_date": "1970-01-01T01:00:00+0000"
                 }
               }
             ],
@@ -974,15 +983,15 @@
             "version": "sktwi1xtmkfgx8626",
             "items": [
               {
-                "latestPostsTitle": "so",
+                "latestPostsTitle": "energy",
                 "latestPostsText": [
                   {
                     "type": "paragraph",
-                    "text": "Sint consectetur ipsum commodo.",
+                    "text": "Sint voluptate ipsum in excepteur ad exercitation est laborum sint incididunt exercitation ut incididunt. Veniam officia est aliqua ex culpa nulla velit. Sunt officia aliquip tempor ut.",
                     "spans": []
                   }
                 ],
-                "latestPostsLink": "zulu",
+                "latestPostsLink": "case",
                 "latestPostsImage": {
                   "dimensions": {
                     "width": 900,
@@ -990,7 +999,7 @@
                   },
                   "alt": null,
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468"
+                  "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a"
                 }
               }
             ],

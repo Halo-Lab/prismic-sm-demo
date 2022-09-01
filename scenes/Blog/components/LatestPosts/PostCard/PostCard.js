@@ -5,7 +5,7 @@ import styles from "./PostCard.module.scss";
 import cutDescription from '../../../../../utils/cutDescription'
 
 const PostCard = ({ post, index, isOpenPosts }) => {
-  const { postimage, posttitle, posttext, postlink } = post;
+  const { postimage, posttitle, posttext, contentrelationship } = post;
 
   return (
     <div
@@ -14,7 +14,7 @@ const PostCard = ({ post, index, isOpenPosts }) => {
       })}
       key={index}
     >
-      <Link href={`/blog/${postlink}`}>
+      <Link href={`/blog/${contentrelationship.uid}`}>
         <a className={styles.postCard}>
           <div className={styles.postImageBox}>
             <div className={styles.imageContainer}>
