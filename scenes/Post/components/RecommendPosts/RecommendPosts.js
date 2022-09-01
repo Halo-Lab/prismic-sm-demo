@@ -17,7 +17,7 @@ const renderPosts = (data) => {
 };
 
 const renderSwiperPosts = (data) => {
-  const postData = data.items.slice(1, 5);
+  const postData = data.slice(1, 5);
   const postsList = postData.map((item, index) => {
     return (
       <SwiperSlide key={index}>
