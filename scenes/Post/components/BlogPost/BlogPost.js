@@ -1,7 +1,7 @@
 import styles from "./BlogPost.module.scss";
 import { PrismicRichText } from '@prismicio/react';
 import * as prismicH from "@prismicio/helpers";
-import YoutubeEmbed from '../../../../components/YoutubeEmbed/YoutubeEmbed'
+import YoutubeEmbed from '../../../../components/YoutubeEmbed/YoutubeEmbed';
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
@@ -9,30 +9,28 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
 });
 
-const BlogPost = ({ data, slug }) => {  
-  const { items } = data;
-  const currentPage = slug.split('-')[1];
-  const {latestPostsImageCover, latestPostsTitle, latestpostsdate, latestPostsText} = items[currentPage];
-  const date = prismicH.asDate(latestpostsdate);
-
-  const video = Object.keys(items[currentPage].video).length ? <YoutubeEmbed embedId={items[currentPage].video.embed_url.replace('https://youtu.be/', '')} title={items[currentPage].video.title} /> : '';
+const BlogPost = ({ data }) => {
+  const {postimagecover, posttitle, postdate, posttext } = data;
+  const date = prismicH.asDate(postdate);
+  
+  const video = Object.keys(data.postvideo).length ? <YoutubeEmbed embedId={data.postvideo.embed_url.replace('https://youtu.be/', '')} title={data.postvideo.title} /> : '';
   
   return (
     <div className={styles.wrapper}>
       <div
         className={styles.postPreview}
         style={{
-          backgroundImage: `url(${latestPostsImageCover.url})`,
+          backgroundImage: `url(${postimagecover.url})`,
         }}
       />
       <div className="container">
         <div className={styles.inner_container}>          
-          <h1 className={styles.postTitle}>{latestPostsTitle}</h1>
+          <h1 className={styles.postTitle}>{posttitle}</h1>
           <p className={styles.postDescription}>
             Last updated: {dateFormatter.format(date)}
           </p>
           <div className={styles.postDescription}>
-            <PrismicRichText field={latestPostsText} />
+            <PrismicRichText field={posttext} />
           </div>
           {video}         
         </div>

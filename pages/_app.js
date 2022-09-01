@@ -11,14 +11,12 @@ import Layout from "../components/Layout/Layout";
 import "../styles/index.scss";
 
 export default function App({ Component, pageProps }) {
-  const {pageTitle, pageDescription, google_analytics_id} = pageProps.data;
+  const {google_analytics_id} = pageProps.data;
 
   return (
     <>
       <Head className="head">
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
-        <meta name="description" content={pageDescription} />
-        <title>{pageTitle}</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>        
       </Head>    
       <PrismicProvider
         linkResolver={linkResolver}

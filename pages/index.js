@@ -9,10 +9,11 @@ export async function getStaticProps({ previewData }) {
   }
 }
 
-function HomePage({ page }) {   
+function HomePage({ page }) {
+  
   return (
     <div>
-      <Home page={page.data.slices} />
+      <Home page={page.data} />
     </div>
   )
 }

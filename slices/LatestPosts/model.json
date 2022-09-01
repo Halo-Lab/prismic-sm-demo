@@ -19,13 +19,6 @@
             "placeholder": ""
           }
         },
-        "latestpostsdate": {
-          "type": "Date",
-          "config": {
-            "label": "LatestPostsDate",
-            "placeholder": ""
-          }
-        },
         "latestPostsText": {
           "type": "StructuredText",
           "config": {
@@ -46,14 +39,6 @@
           "type": "Image",
           "config": {
             "label": "Latest Posts Image",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "latestPostsImageCover": {
-          "type": "Image",
-          "config": {
-            "label": "Latest Posts Image Cover",
             "constraint": {},
             "thumbnails": []
           }
@@ -76,13 +61,6 @@
             "placeholder": ""
           }
         },
-        "latestpostsdate": {
-          "type": "Date",
-          "config": {
-            "label": "LatestPostsDate",
-            "placeholder": ""
-          }
-        },
         "latestPostsText": {
           "type": "StructuredText",
           "config": {
@@ -105,21 +83,6 @@
             "label": "Latest Posts Image",
             "constraint": {},
             "thumbnails": []
-          }
-        },
-        "latestPostsImageCover": {
-          "type": "Image",
-          "config": {
-            "label": "Latest Posts Image Cover",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "video": {
-          "type": "Embed",
-          "config": {
-            "label": "Video",
-            "placeholder": ""
           }
         }
       },

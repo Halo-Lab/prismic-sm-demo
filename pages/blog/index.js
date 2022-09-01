@@ -13,7 +13,7 @@ function BlogPage({ page }) {
 
   return (
     <div>
-      <Blog page={page.data.slices} />
+      <Blog page={page.data} />
     </div>
   );
 }

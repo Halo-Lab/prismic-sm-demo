@@ -12,6 +12,20 @@
           "placeholder": ""
         }
       },
+      "pageseotitle": {
+        "type": "Text",
+        "config": {
+          "label": "PageSEOTitle",
+          "placeholder": ""
+        }
+      },
+      "pageseodescription": {
+        "type": "Text",
+        "config": {
+          "label": "PageSEODescription",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

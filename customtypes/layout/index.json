@@ -12,20 +12,6 @@
           "placeholder": ""
         }
       },
-      "pageTitle": {
-        "type": "Text",
-        "config": {
-          "label": "Page Title",
-          "placeholder": ""
-        }
-      },
-      "pageDescription": {
-        "type": "Text",
-        "config": {
-          "label": "Page Description",
-          "placeholder": ""
-        }
-      },
       "google_analytics_id": {
         "type": "Text",
         "config": {
