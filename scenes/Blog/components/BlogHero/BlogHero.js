@@ -7,7 +7,7 @@ import cutDescription from '../../../../utils/cutDescription'
 
 const BlogHero = ({ data }) => {  
   const {items} = data;
-  const { postimage, posttitle, posttext, postlink } = items[0];
+  const { postimage, posttitle, posttext, contentrelationship } = items[0];
 
   return (
     <div className="hero">
@@ -19,7 +19,7 @@ const BlogHero = ({ data }) => {
               {cutDescription(posttext[0].text, 189)}
             </p>
             <ButtonPrimary
-              buttonLink={`/blog/${postlink}`}
+              buttonLink={`/blog/${contentrelationship.uid}`}
               mod="button--regular"
               Icon={ArrowIcon}
             />
