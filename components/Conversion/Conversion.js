@@ -49,7 +49,7 @@ const Conversion = ({ data }) => {
                   </span>
                 </div>
                 <div className={styles.conversionImageContainer}>
-                  <Image src={conversionImage.url} className={styles.conversionImage} alt={conversionImage.alt} layout="fill" priority /> 
+                  <Image src={conversionImage.url} className={styles.conversionImage} alt={conversionImage.alt} layout="fill" /> 
                 </div>
               </div>
             </div>

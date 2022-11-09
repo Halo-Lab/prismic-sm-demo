@@ -8,7 +8,7 @@ const PartnersItem = ({ data }) => {
   return (
     <div className={s.partnersItem}>
       <div className={s.imageContainer}>
-        <Image src={partnersLogo.url} className={s.image} alt={partnersLogo.alt} layout="fill" priority /> 
+        <Image src={partnersLogo.url} className={s.image} alt={partnersLogo.alt} layout="fill" /> 
       </div>
     </div>
   );

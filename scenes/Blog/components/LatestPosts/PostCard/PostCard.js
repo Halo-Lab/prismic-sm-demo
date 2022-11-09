@@ -17,7 +17,7 @@ const PostCard = ({ post, index, isOpenPosts }) => {
       <Link href={`/blog/${contentrelationship.uid}`} className={styles.postCard}>
         <div className={styles.postImageBox}>
           <div className={styles.imageContainer}>
-            <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" priority /> 
+            <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" /> 
           </div>
         </div>
         <h3 className={styles.postTitle}>{posttitle}</h3>
