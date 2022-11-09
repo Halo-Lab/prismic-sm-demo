@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 import styles from "./BlogHero.module.scss";
 import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPrimary";

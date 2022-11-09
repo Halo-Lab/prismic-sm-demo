@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import s from "./BenefitsItem.module.scss";
 import ButtonWithArrow from "../../../../../components/Buttons/ButtonWithArrow/ButtonWithArrow";
 import classnames from "classnames";
