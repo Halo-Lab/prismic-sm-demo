@@ -15,7 +15,6 @@ const PostCard = ({ post, index, isOpenPosts }) => {
       key={index}
     >
       <Link href={`/blog/${contentrelationship.uid}`} className={styles.postCard}>
-
         <div className={styles.postImageBox}>
           <div className={styles.imageContainer}>
             <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" priority /> 
@@ -25,7 +24,6 @@ const PostCard = ({ post, index, isOpenPosts }) => {
         <p className={styles.postDescription}>
           {cutDescription(posttext[0].text, 87)}
         </p>
-
       </Link>
     </div>
   );
