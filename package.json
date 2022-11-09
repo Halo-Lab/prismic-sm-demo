@@ -18,11 +18,11 @@
     "@prismicio/slice-simulator-react": "^0.2.2",
     "classnames": "^2.3.1",
     "concurrently": "^7.3.0",
-    "next": "12.2.4",
+    "next": "^13.0.2",
     "node-sass": "^7.0.1",
     "prettier": "^2.7.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-id-swiper": "^4.0.0",
     "react-responsive": "^9.0.0-beta.10",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4",
+    "eslint-config-next": "^13.0.2",
     "slice-machine-ui": "^0.4.2"
   }
 }
