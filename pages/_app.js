@@ -13,30 +13,26 @@ import "../styles/index.scss";
 export default function App({ Component, pageProps }) {
   const {google_analytics_id} = pageProps.data;
 
-  return (
-    <>
-      <Head className="head">
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>        
-      </Head>    
-      <PrismicProvider
-        linkResolver={linkResolver}
-        internalLinkComponent={({ href, children, ...props }) => (
-          <Link href={href}>
-            <a {...props}>
-              {children}
-            </a>
-          </Link>
-        )}
-      >
-        <PrismicPreview repositoryName={repositoryName}>
-          <Layout data={pageProps.data.slices}>
-            <GoogleAnalytics measurementId={google_analytics_id} />
-            <Component {...pageProps} />
-          </Layout>
-        </PrismicPreview>
-      </PrismicProvider>
-    </>
-  )
+  return <>
+    <Head className="head">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>        
+    </Head>    
+    <PrismicProvider
+      linkResolver={linkResolver}
+      internalLinkComponent={({ href, children, ...props }) => (
+        (<Link href={href} {...props}>
+          {children}
+        </Link>)
+      )}
+    >
+      <PrismicPreview repositoryName={repositoryName}>
+        <Layout data={pageProps.data.slices}>
+          <GoogleAnalytics measurementId={google_analytics_id} />
+          <Component {...pageProps} />
+        </Layout>
+      </PrismicPreview>
+    </PrismicProvider>
+  </>;
 }
 
 App.getInitialProps = async () => {
