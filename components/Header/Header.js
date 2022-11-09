@@ -15,9 +15,7 @@ const Header = ({ data }) => {
       <div className="container">
         <div className={styles.headerWrap}>
           <Link href="/">
-            <a>
-              <Image src={logo.url} alt={logo.alt} width="192px" height="32px" layout="fixed" priority />
-            </a>
+            <Image src={logo.url} alt={logo.alt} width="192px" height="32px" layout="fixed" priority />
           </Link>
           <div className={styles.headerRight}>
             <Navigation headerLinkArr={items} />
