@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@bradgarropy/next-google-analytics": "^1.0.2",
+    "@next/font": "^13.0.2",
     "@prismicio/client": "^6.7.1",
     "@prismicio/helpers": "^2.3.5",
     "@prismicio/next": "^0.1.7",

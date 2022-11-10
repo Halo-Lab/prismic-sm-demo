@@ -6,7 +6,6 @@ import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import Link from 'next/link';
 import Head from "next/head";
 
-
 import Layout from "../components/Layout/Layout";
 import "../styles/index.scss";
 
