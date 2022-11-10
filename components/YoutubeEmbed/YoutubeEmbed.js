@@ -10,6 +10,7 @@ const YoutubeEmbed = ({ embedId, title }) => (
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title={`${title}`}
+      loading="lazy"
     />
   </div>
 );
