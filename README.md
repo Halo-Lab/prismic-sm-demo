@@ -2,7 +2,7 @@
 
 This is Halo Lab demo project, built with Next.js, Prismic CMS and Slice Machine.
 
-Demo: https://prismic-sm-demo.netlify.app/
+Demo: https://prismic-sm-demo.staging.halo-lab.team/
 
 ## Development
 Clone project:
