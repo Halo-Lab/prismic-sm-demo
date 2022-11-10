@@ -26,6 +26,11 @@ make build
 ```
 Push changes to remote repository.
 
+You can start Prismic Slice machine:
+```bash
+make sm
+```
+
 Have a fun!
 
 <a href="https://www.halo-lab.com/?utm_source=github">
