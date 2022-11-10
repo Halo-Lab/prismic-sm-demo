@@ -1,12 +1,10 @@
-import Image from 'next/image';
-
 import s from "./Hero.module.scss";
 import ButtonPrimary from "../../../../components/Buttons/ButtonPrimary/ButtonPrimary";
 import ButtonWithArrow from "../../../../components/Buttons/ButtonWithArrow/ButtonWithArrow";
 
 const Hero = ({ data }) => {
   const { primary } = data;
-  const {heroTitle, heroText, heroButton, heroButtonHref, heroLink, heroLinkHref, heroImage, herovideo} = primary;
+  const { heroTitle, heroText, heroButton, heroButtonHref, heroLink, heroLinkHref, heroImage, herovideo } = primary;
 
   return (
     <div className="section">

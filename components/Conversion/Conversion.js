@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import classNames from "classnames";
 
 import styles from "./Conversion.module.scss";
@@ -49,7 +49,7 @@ const Conversion = ({ data }) => {
                   </span>
                 </div>
                 <div className={styles.conversionImageContainer}>
-                  <Image src={conversionImage.url} className={styles.conversionImage} alt={conversionImage.alt} layout="fill" priority /> 
+                  <Image src={conversionImage.url} className={styles.conversionImage} alt={conversionImage.alt} layout="fill" /> 
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from "next/link";
 import classnames from "classnames";
 import styles from "./PostCard.module.scss";
@@ -14,18 +14,16 @@ const PostCard = ({ post, index, isOpenPosts }) => {
       })}
       key={index}
     >
-      <Link href={`/blog/${contentrelationship.uid}`}>
-        <a className={styles.postCard}>
-          <div className={styles.postImageBox}>
-            <div className={styles.imageContainer}>
-              <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" priority /> 
-            </div>
+      <Link href={`/blog/${contentrelationship.uid}`} className={styles.postCard}>
+        <div className={styles.postImageBox}>
+          <div className={styles.imageContainer}>
+            <Image src={postimage.url} className={styles.image} alt={postimage.alt} layout="fill" /> 
           </div>
-          <h3 className={styles.postTitle}>{posttitle}</h3>
-          <p className={styles.postDescription}>
-            {cutDescription(posttext[0].text, 87)}
-          </p>
-        </a>
+        </div>
+        <h3 className={styles.postTitle}>{posttitle}</h3>
+        <p className={styles.postDescription}>
+          {cutDescription(posttext[0].text, 87)}
+        </p>
       </Link>
     </div>
   );
